@@ -58,35 +58,39 @@ public class UserChallengeManager : MonoBehaviour
 
         if (uwr.isHttpError || uwr.isNetworkError)
         {
-
+            Debug.Log(uwr.isNetworkError);
         }
         else
         {
             var resp = uwr.downloadHandler.text;
             var parsemodel = JSON.Parse(resp);
             var jsonArray = parsemodel.AsArray;
-            //Debug.Log($"ChallengeData: -----> {jsonArray.Count}");
+            HandleJSONArray(jsonArray);
+        }
+    }
 
-            foreach (var item in jsonArray)
-            {
-                var newChallenge = Instantiate(userChallengeButtonPrefab, userChallengeButtonParent.transform);
-                challengeDict.Add(newChallenge, new ChallengeModel() { chalange_id = item.Value["chalange_id"], chalange_name = item.Value["chalange_name"], username = item.Value["username"], user_id = item.Value["user_id"] });
+    private void HandleJSONArray(JSONArray jsonArray)
+    {
+        foreach (var item in jsonArray)
+        {
+            var newChallenge = Instantiate(userChallengeButtonPrefab, userChallengeButtonParent.transform);
+            challengeDict.Add(newChallenge, new ChallengeModel() { chalange_id = item.Value["chalange_id"], chalange_name = item.Value["chalange_name"], username = item.Value["username"], user_id = item.Value["user_id"] });
 
-                var requestHandler = newChallenge.GetComponent<ChallengeRequestHandler>();
-                requestHandler.ChallengeName.text = item.Value["chalange_name"].ToString();
-                requestHandler.requestButton.onClick.AddListener(() =>
-                {
-                    UserChallengeDetailScreen.SetActive(true);
+            var requestHandler = newChallenge.GetComponent<ChallengeRequestHandler>();
+            requestHandler.ChallengeName.text = item.Value["chalange_name"].ToString();
+            requestHandler.requestButton.onClick.AddListener(() => ShowChallengeInfo(newChallenge));
+            //Debug.Log($"{item.Value["chalange_id"]} {item.Value["chalange_name"]} {item.Value["user_id"]} {item.Value["username"]}");
+        }
+    }
 
-                    if(challengeDict.TryGetValue(newChallenge, out ChallengeModel selectedChallenge))
-                    {
-                        EntryFee.text = selectedChallenge.chalange_id;
-                        WinAmount.text = selectedChallenge.user_id;
-                    }
-                });
+    private void ShowChallengeInfo(GameObject currentButton)
+    {
+        UserChallengeDetailScreen.SetActive(true);
 
-                Debug.Log($"{item.Value["chalange_id"]} {item.Value["chalange_name"]} {item.Value["user_id"]} {item.Value["username"]}");
-            }
+        if (challengeDict.TryGetValue(currentButton, out ChallengeModel selectedChallenge))
+        {
+            EntryFee.text = selectedChallenge.chalange_id;
+            WinAmount.text = selectedChallenge.user_id;
         }
     }
 }
