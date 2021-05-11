@@ -1,0 +1,822 @@
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\Assembly-CSharp.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\Assembly-CSharp.pdb
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\Apple.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\Boo.Lang.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\ChannelPurchase.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\Editor.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\Facebook.Unity.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\Facebook.Unity.Gameroom.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\Facebook.Unity.Settings.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\FacebookNamedPipeClient.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\FacebookStore.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\Firebase.App.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\Firebase.Auth.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\Firebase.Platform.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\Firebase.TaskExtension.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\Google.MiniJson.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\Microsoft.CSharp.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\Microsoft.Win32.Primitives.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\mscorlib.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\netstandard.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\nunit.framework.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\Photon3Unity3D.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\Purchasing.Common.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\Security.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\Stores.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.AppContext.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.Collections.Concurrent.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.Collections.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.Collections.NonGeneric.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.Collections.Specialized.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.ComponentModel.Annotations.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.ComponentModel.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.ComponentModel.Primitives.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.ComponentModel.TypeConverter.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.Console.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.Core.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.Data.Common.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.Data.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.Diagnostics.Contracts.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.Diagnostics.Debug.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.Diagnostics.Process.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.Diagnostics.StackTrace.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.Diagnostics.Tools.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.Diagnostics.TraceSource.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.Drawing.Primitives.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.Dynamic.Runtime.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.Globalization.Calendars.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.Globalization.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.Globalization.Extensions.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.IO.Compression.ZipFile.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.IO.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.IO.FileSystem.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.IO.FileSystem.Primitives.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.IO.FileSystem.Watcher.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.IO.IsolatedStorage.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.IO.MemoryMappedFiles.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.IO.Pipes.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.Linq.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.Linq.Expressions.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.Linq.Parallel.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.Linq.Queryable.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.Net.Http.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.Net.Http.Rtc.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.Net.NameResolution.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.Net.NetworkInformation.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.Net.Ping.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.Net.Primitives.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.Net.Requests.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.Net.Security.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.Net.Sockets.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.Net.WebHeaderCollection.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.Net.WebSockets.Client.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.Net.WebSockets.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.Numerics.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.Numerics.Vectors.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.ObjectModel.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.Reflection.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.Reflection.Emit.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.Reflection.Emit.ILGeneration.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.Reflection.Emit.Lightweight.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.Reflection.Extensions.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.Reflection.Primitives.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.Resources.Reader.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.Resources.ResourceManager.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.Resources.Writer.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.Runtime.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.Runtime.Extensions.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.Runtime.Handles.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.Runtime.InteropServices.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.Runtime.InteropServices.WindowsRuntime.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.Runtime.Numerics.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.Runtime.Serialization.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.Runtime.Serialization.Formatters.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.Runtime.Serialization.Json.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.Runtime.Serialization.Primitives.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.Runtime.Serialization.Xml.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.Security.Claims.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.Security.Cryptography.Algorithms.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.Security.Cryptography.Csp.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.Security.Cryptography.Encoding.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.Security.Cryptography.Primitives.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.Security.Principal.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.Security.SecureString.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.ServiceModel.Duplex.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.ServiceModel.Http.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.ServiceModel.NetTcp.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.ServiceModel.Primitives.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.ServiceModel.Security.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.Text.Encoding.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.Text.Encoding.Extensions.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.Text.RegularExpressions.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.Threading.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.Threading.Overlapped.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.Threading.Tasks.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.Threading.Tasks.Parallel.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.Threading.Thread.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.Threading.ThreadPool.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.Threading.Timer.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.ValueTuple.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.Xml.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.Xml.Linq.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.Xml.ReaderWriter.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.Xml.XDocument.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.Xml.XmlDocument.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.Xml.XmlSerializer.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.Xml.XPath.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\System.Xml.XPath.XDocument.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\Tizen.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UDP.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\Unity.Analytics.DataPrivacy.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\Unity.Analytics.StandardEvents.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\Unity.CollabProxy.Editor.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\Unity.Compat.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\Unity.Locator.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\Unity.PackageManagerUI.Editor.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\Unity.Tasks.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\Unity.TextMeshPro.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\Unity.TextMeshPro.Editor.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEditor.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEngine.AccessibilityModule.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEngine.AIModule.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEngine.AnimationModule.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEngine.ARModule.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEngine.AssetBundleModule.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEngine.AudioModule.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEngine.BaselibModule.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEngine.ClothModule.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEngine.CoreModule.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEngine.CrashReportingModule.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEngine.DirectorModule.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEngine.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEngine.FileSystemHttpModule.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEngine.GameCenterModule.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEngine.GoogleAudioSpatializer.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEngine.GridModule.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEngine.HotReloadModule.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEngine.ImageConversionModule.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEngine.IMGUIModule.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEngine.InputModule.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEngine.JSONSerializeModule.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEngine.LocalizationModule.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEngine.Networking.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEngine.ParticleSystemModule.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEngine.PerformanceReportingModule.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEngine.Physics2DModule.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEngine.PhysicsModule.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEngine.ProfilerModule.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEngine.Purchasing.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEngine.ScreenCaptureModule.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEngine.SharedInternalsModule.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEngine.SpatialTracking.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEngine.SpatialTrackingModule.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEngine.SpriteMaskModule.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEngine.SpriteShapeModule.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEngine.StreamingModule.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEngine.StyleSheetsModule.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEngine.SubstanceModule.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEngine.TerrainModule.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEngine.TerrainPhysicsModule.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEngine.TestRunner.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEngine.TextCoreModule.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEngine.TextRenderingModule.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEngine.TilemapModule.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEngine.Timeline.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEngine.TimelineModule.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEngine.TLSModule.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEngine.UI.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEngine.UIElementsModule.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEngine.UIModule.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEngine.UmbraModule.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEngine.UNETModule.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEngine.UnityAnalyticsModule.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEngine.UnityConnectModule.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEngine.UnityTestProtocolModule.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEngine.UnityWebRequestAssetBundleModule.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEngine.UnityWebRequestAudioModule.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEngine.UnityWebRequestModule.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEngine.UnityWebRequestTextureModule.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEngine.UnityWebRequestWWWModule.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEngine.VehiclesModule.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEngine.VFXModule.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEngine.VideoModule.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEngine.VRModule.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEngine.WindModule.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEngine.XRModule.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityScript.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityScript.Lang.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityStore.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\websocket-sharp.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\winrt.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\WP8Native.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\WP8PopUps.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\WSANative.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEngine.ClusterInputModule.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEngine.ClusterRendererModule.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\Unity.Cecil.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\Unity.SerializationLogic.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\Unity.DataContract.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\ExCSS.Unity.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\Unity.Legacy.NRefactory.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\Unity.UNetWeaver.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\Unity.IvyParser.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\Boo.Lang.Compiler.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\Boo.Lang.PatternMatching.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\Boo.Lang.Parser.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\Boo.Lang.Useful.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\Unity.CecilTools.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\Unity.Cecil.Pdb.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\Unity.Cecil.Mdb.dll
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEditor.xml
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\Unity.TextMeshPro.Editor.pdb
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\Unity.PackageManagerUI.Editor.pdb
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\Unity.CollabProxy.Editor.pdb
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\Unity.TextMeshPro.pdb
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\Unity.Analytics.DataPrivacy.pdb
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEngine.AnimationModule.xml
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEngine.AssetBundleModule.xml
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEngine.AudioModule.xml
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEngine.CoreModule.xml
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEngine.GridModule.xml
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEngine.IMGUIModule.xml
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEngine.ImageConversionModule.xml
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEngine.InputModule.xml
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEngine.JSONSerializeModule.xml
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEngine.PhysicsModule.xml
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEngine.Physics2DModule.xml
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEngine.SharedInternalsModule.xml
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEngine.StyleSheetsModule.xml
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEngine.TerrainModule.xml
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEngine.TextRenderingModule.xml
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEngine.UnityAnalyticsModule.xml
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEngine.UnityConnectModule.xml
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEngine.UnityWebRequestModule.xml
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEngine.UnityWebRequestAssetBundleModule.xml
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEngine.UnityWebRequestAudioModule.xml
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEngine.XRModule.xml
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\nunit.framework.xml
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\Photon3Unity3D.xml
+D:\ludomoneypro\Ludo Vegas\Temp\bin\Debug\UnityEngine.ClusterInputModule.xml
+D:\ludomoneypro\Ludo Vegas\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+D:\ludomoneypro\Ludo Vegas\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+D:\ludomoneypro\Ludo Vegas\obj\Debug\Assembly-CSharp.csproj.CopyComplete
+D:\ludomoneypro\Ludo Vegas\obj\Debug\Assembly-CSharp.dll
+D:\ludomoneypro\Ludo Vegas\obj\Debug\Assembly-CSharp.pdb
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\Assembly-CSharp.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\Assembly-CSharp.pdb
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\Apple.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\Boo.Lang.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\ChannelPurchase.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\Editor.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\Facebook.Unity.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\Facebook.Unity.Gameroom.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\Facebook.Unity.Settings.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\FacebookNamedPipeClient.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\FacebookStore.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\Firebase.App.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\Firebase.Auth.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\Firebase.Platform.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\Firebase.TaskExtension.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\Google.MiniJson.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\Microsoft.CSharp.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\Microsoft.Win32.Primitives.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\mscorlib.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\netstandard.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\nunit.framework.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\Photon3Unity3D.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\Purchasing.Common.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\Security.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\Stores.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.AppContext.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.Collections.Concurrent.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.Collections.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.Collections.NonGeneric.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.Collections.Specialized.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.ComponentModel.Annotations.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.ComponentModel.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.ComponentModel.Primitives.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.ComponentModel.TypeConverter.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.Console.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.Core.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.Data.Common.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.Data.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.Diagnostics.Contracts.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.Diagnostics.Debug.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.Diagnostics.Process.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.Diagnostics.StackTrace.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.Diagnostics.Tools.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.Diagnostics.TraceSource.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.Drawing.Primitives.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.Dynamic.Runtime.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.Globalization.Calendars.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.Globalization.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.Globalization.Extensions.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.IO.Compression.ZipFile.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.IO.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.IO.FileSystem.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.IO.FileSystem.Primitives.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.IO.FileSystem.Watcher.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.IO.IsolatedStorage.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.IO.MemoryMappedFiles.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.IO.Pipes.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.Linq.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.Linq.Expressions.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.Linq.Parallel.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.Linq.Queryable.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.Net.Http.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.Net.Http.Rtc.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.Net.NameResolution.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.Net.NetworkInformation.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.Net.Ping.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.Net.Primitives.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.Net.Requests.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.Net.Security.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.Net.Sockets.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.Net.WebHeaderCollection.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.Net.WebSockets.Client.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.Net.WebSockets.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.Numerics.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.Numerics.Vectors.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.ObjectModel.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.Reflection.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.Reflection.Emit.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.Reflection.Emit.ILGeneration.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.Reflection.Emit.Lightweight.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.Reflection.Extensions.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.Reflection.Primitives.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.Resources.Reader.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.Resources.ResourceManager.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.Resources.Writer.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.Runtime.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.Runtime.Extensions.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.Runtime.Handles.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.Runtime.InteropServices.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.Runtime.InteropServices.WindowsRuntime.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.Runtime.Numerics.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.Runtime.Serialization.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.Runtime.Serialization.Formatters.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.Runtime.Serialization.Json.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.Runtime.Serialization.Primitives.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.Runtime.Serialization.Xml.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.Security.Claims.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.Security.Cryptography.Algorithms.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.Security.Cryptography.Csp.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.Security.Cryptography.Encoding.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.Security.Cryptography.Primitives.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.Security.Principal.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.Security.SecureString.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.ServiceModel.Duplex.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.ServiceModel.Http.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.ServiceModel.NetTcp.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.ServiceModel.Primitives.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.ServiceModel.Security.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.Text.Encoding.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.Text.Encoding.Extensions.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.Text.RegularExpressions.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.Threading.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.Threading.Overlapped.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.Threading.Tasks.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.Threading.Tasks.Parallel.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.Threading.Thread.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.Threading.ThreadPool.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.Threading.Timer.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.ValueTuple.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.Xml.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.Xml.Linq.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.Xml.ReaderWriter.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.Xml.XDocument.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.Xml.XmlDocument.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.Xml.XmlSerializer.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.Xml.XPath.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\System.Xml.XPath.XDocument.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\Tizen.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UDP.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\Unity.Analytics.DataPrivacy.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\Unity.Analytics.StandardEvents.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\Unity.CollabProxy.Editor.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\Unity.Compat.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\Unity.Locator.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\Unity.PackageManagerUI.Editor.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\Unity.Tasks.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\Unity.TextMeshPro.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\Unity.TextMeshPro.Editor.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEditor.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEngine.AccessibilityModule.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEngine.AIModule.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEngine.AnimationModule.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEngine.ARModule.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEngine.AssetBundleModule.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEngine.AudioModule.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEngine.BaselibModule.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEngine.ClothModule.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEngine.CoreModule.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEngine.CrashReportingModule.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEngine.DirectorModule.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEngine.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEngine.FileSystemHttpModule.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEngine.GameCenterModule.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEngine.GoogleAudioSpatializer.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEngine.GridModule.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEngine.HotReloadModule.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEngine.ImageConversionModule.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEngine.IMGUIModule.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEngine.InputModule.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEngine.JSONSerializeModule.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEngine.LocalizationModule.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEngine.Networking.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEngine.ParticleSystemModule.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEngine.PerformanceReportingModule.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEngine.Physics2DModule.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEngine.PhysicsModule.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEngine.ProfilerModule.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEngine.Purchasing.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEngine.ScreenCaptureModule.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEngine.SharedInternalsModule.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEngine.SpatialTracking.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEngine.SpatialTrackingModule.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEngine.SpriteMaskModule.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEngine.SpriteShapeModule.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEngine.StreamingModule.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEngine.StyleSheetsModule.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEngine.SubstanceModule.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEngine.TerrainModule.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEngine.TerrainPhysicsModule.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEngine.TestRunner.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEngine.TextCoreModule.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEngine.TextRenderingModule.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEngine.TilemapModule.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEngine.Timeline.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEngine.TimelineModule.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEngine.TLSModule.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEngine.UI.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEngine.UIElementsModule.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEngine.UIModule.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEngine.UmbraModule.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEngine.UNETModule.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEngine.UnityAnalyticsModule.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEngine.UnityConnectModule.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEngine.UnityTestProtocolModule.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEngine.UnityWebRequestAssetBundleModule.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEngine.UnityWebRequestAudioModule.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEngine.UnityWebRequestModule.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEngine.UnityWebRequestTextureModule.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEngine.UnityWebRequestWWWModule.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEngine.VehiclesModule.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEngine.VFXModule.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEngine.VideoModule.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEngine.VRModule.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEngine.WindModule.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEngine.XRModule.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityScript.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityScript.Lang.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityStore.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\websocket-sharp.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\winrt.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\WP8Native.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\WP8PopUps.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\WSANative.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEngine.ClusterInputModule.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEngine.ClusterRendererModule.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\Unity.Cecil.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\Unity.SerializationLogic.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\Unity.DataContract.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\ExCSS.Unity.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\Unity.Legacy.NRefactory.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\Unity.UNetWeaver.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\Unity.IvyParser.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\Boo.Lang.Compiler.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\Boo.Lang.PatternMatching.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\Boo.Lang.Parser.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\Boo.Lang.Useful.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\Unity.CecilTools.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\Unity.Cecil.Pdb.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\Unity.Cecil.Mdb.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEditor.xml
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\Unity.TextMeshPro.Editor.pdb
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\Unity.PackageManagerUI.Editor.pdb
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\Unity.CollabProxy.Editor.pdb
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\Unity.TextMeshPro.pdb
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\Unity.Analytics.DataPrivacy.pdb
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEngine.AnimationModule.xml
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEngine.AssetBundleModule.xml
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEngine.AudioModule.xml
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEngine.CoreModule.xml
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEngine.GridModule.xml
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEngine.IMGUIModule.xml
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEngine.ImageConversionModule.xml
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEngine.InputModule.xml
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEngine.JSONSerializeModule.xml
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEngine.PhysicsModule.xml
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEngine.Physics2DModule.xml
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEngine.SharedInternalsModule.xml
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEngine.StyleSheetsModule.xml
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEngine.TerrainModule.xml
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEngine.TextRenderingModule.xml
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEngine.UnityAnalyticsModule.xml
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEngine.UnityConnectModule.xml
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEngine.UnityWebRequestModule.xml
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEngine.UnityWebRequestAssetBundleModule.xml
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEngine.UnityWebRequestAudioModule.xml
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEngine.XRModule.xml
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\nunit.framework.xml
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\Photon3Unity3D.xml
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\Temp\bin\Debug\UnityEngine.ClusterInputModule.xml
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\obj\Debug\Assembly-CSharp.csproj.CopyComplete
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\obj\Debug\Assembly-CSharp.dll
+D:\ludomoneypro\Ludo Money Pro\Ludo Money Pro\obj\Debug\Assembly-CSharp.pdb
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\Assembly-CSharp.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\Assembly-CSharp.pdb
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\Apple.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\Boo.Lang.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\ChannelPurchase.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\Editor.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\Facebook.Unity.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\Facebook.Unity.Gameroom.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\Facebook.Unity.Settings.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\FacebookNamedPipeClient.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\FacebookStore.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\Firebase.App.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\Firebase.Auth.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\Firebase.Platform.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\Firebase.TaskExtension.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\Google.MiniJson.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\Microsoft.CSharp.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\Microsoft.Win32.Primitives.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\mscorlib.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\netstandard.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\nunit.framework.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\Photon3Unity3D.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\Purchasing.Common.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\Security.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\Stores.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.AppContext.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.Collections.Concurrent.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.Collections.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.Collections.NonGeneric.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.Collections.Specialized.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.ComponentModel.Annotations.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.ComponentModel.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.ComponentModel.Primitives.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.ComponentModel.TypeConverter.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.Console.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.Core.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.Data.Common.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.Data.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.Diagnostics.Contracts.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.Diagnostics.Debug.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.Diagnostics.Process.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.Diagnostics.StackTrace.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.Diagnostics.Tools.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.Diagnostics.TraceSource.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.Drawing.Primitives.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.Dynamic.Runtime.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.Globalization.Calendars.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.Globalization.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.Globalization.Extensions.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.IO.Compression.ZipFile.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.IO.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.IO.FileSystem.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.IO.FileSystem.Primitives.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.IO.FileSystem.Watcher.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.IO.IsolatedStorage.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.IO.MemoryMappedFiles.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.IO.Pipes.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.Linq.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.Linq.Expressions.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.Linq.Parallel.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.Linq.Queryable.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.Net.Http.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.Net.Http.Rtc.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.Net.NameResolution.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.Net.NetworkInformation.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.Net.Ping.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.Net.Primitives.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.Net.Requests.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.Net.Security.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.Net.Sockets.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.Net.WebHeaderCollection.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.Net.WebSockets.Client.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.Net.WebSockets.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.Numerics.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.Numerics.Vectors.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.ObjectModel.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.Reflection.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.Reflection.Emit.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.Reflection.Emit.ILGeneration.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.Reflection.Emit.Lightweight.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.Reflection.Extensions.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.Reflection.Primitives.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.Resources.Reader.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.Resources.ResourceManager.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.Resources.Writer.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.Runtime.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.Runtime.Extensions.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.Runtime.Handles.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.Runtime.InteropServices.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.Runtime.InteropServices.WindowsRuntime.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.Runtime.Numerics.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.Runtime.Serialization.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.Runtime.Serialization.Formatters.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.Runtime.Serialization.Json.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.Runtime.Serialization.Primitives.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.Runtime.Serialization.Xml.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.Security.Claims.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.Security.Cryptography.Algorithms.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.Security.Cryptography.Csp.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.Security.Cryptography.Encoding.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.Security.Cryptography.Primitives.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.Security.Principal.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.Security.SecureString.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.ServiceModel.Duplex.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.ServiceModel.Http.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.ServiceModel.NetTcp.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.ServiceModel.Primitives.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.ServiceModel.Security.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.Text.Encoding.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.Text.Encoding.Extensions.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.Text.RegularExpressions.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.Threading.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.Threading.Overlapped.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.Threading.Tasks.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.Threading.Tasks.Parallel.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.Threading.Thread.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.Threading.ThreadPool.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.Threading.Timer.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.ValueTuple.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.Xml.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.Xml.Linq.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.Xml.ReaderWriter.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.Xml.XDocument.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.Xml.XmlDocument.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.Xml.XmlSerializer.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.Xml.XPath.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\System.Xml.XPath.XDocument.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\Tizen.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UDP.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\Unity.Analytics.DataPrivacy.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\Unity.Analytics.StandardEvents.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\Unity.CollabProxy.Editor.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\Unity.Compat.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\Unity.Locator.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\Unity.PackageManagerUI.Editor.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\Unity.Tasks.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\Unity.TextMeshPro.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\Unity.TextMeshPro.Editor.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEditor.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEngine.AccessibilityModule.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEngine.AIModule.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEngine.AnimationModule.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEngine.ARModule.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEngine.AssetBundleModule.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEngine.AudioModule.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEngine.BaselibModule.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEngine.ClothModule.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEngine.CoreModule.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEngine.CrashReportingModule.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEngine.DirectorModule.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEngine.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEngine.FileSystemHttpModule.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEngine.GameCenterModule.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEngine.GoogleAudioSpatializer.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEngine.GridModule.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEngine.HotReloadModule.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEngine.ImageConversionModule.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEngine.IMGUIModule.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEngine.InputModule.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEngine.JSONSerializeModule.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEngine.LocalizationModule.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEngine.Networking.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEngine.ParticleSystemModule.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEngine.PerformanceReportingModule.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEngine.Physics2DModule.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEngine.PhysicsModule.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEngine.ProfilerModule.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEngine.Purchasing.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEngine.ScreenCaptureModule.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEngine.SharedInternalsModule.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEngine.SpatialTracking.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEngine.SpatialTrackingModule.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEngine.SpriteMaskModule.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEngine.SpriteShapeModule.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEngine.StreamingModule.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEngine.StyleSheetsModule.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEngine.SubstanceModule.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEngine.TerrainModule.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEngine.TerrainPhysicsModule.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEngine.TestRunner.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEngine.TextCoreModule.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEngine.TextRenderingModule.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEngine.TilemapModule.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEngine.Timeline.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEngine.TimelineModule.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEngine.TLSModule.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEngine.UI.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEngine.UIElementsModule.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEngine.UIModule.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEngine.UmbraModule.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEngine.UNETModule.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEngine.UnityAnalyticsModule.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEngine.UnityConnectModule.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEngine.UnityTestProtocolModule.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEngine.UnityWebRequestAssetBundleModule.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEngine.UnityWebRequestAudioModule.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEngine.UnityWebRequestModule.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEngine.UnityWebRequestTextureModule.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEngine.UnityWebRequestWWWModule.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEngine.VehiclesModule.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEngine.VFXModule.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEngine.VideoModule.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEngine.VRModule.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEngine.WindModule.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEngine.XRModule.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityScript.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityScript.Lang.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityStore.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\websocket-sharp.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\winrt.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\WP8Native.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\WP8PopUps.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\WSANative.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEngine.ClusterInputModule.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEngine.ClusterRendererModule.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\Unity.Cecil.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\Unity.SerializationLogic.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\Unity.DataContract.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\ExCSS.Unity.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\Unity.Legacy.NRefactory.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\Unity.UNetWeaver.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\Unity.IvyParser.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\Boo.Lang.Compiler.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\Boo.Lang.PatternMatching.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\Boo.Lang.Parser.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\Boo.Lang.Useful.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\Unity.CecilTools.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\Unity.Cecil.Pdb.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\Unity.Cecil.Mdb.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEditor.xml
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\Unity.TextMeshPro.Editor.pdb
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\Unity.PackageManagerUI.Editor.pdb
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\Unity.CollabProxy.Editor.pdb
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\Unity.TextMeshPro.pdb
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\Unity.Analytics.DataPrivacy.pdb
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEngine.AnimationModule.xml
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEngine.AssetBundleModule.xml
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEngine.AudioModule.xml
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEngine.CoreModule.xml
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEngine.GridModule.xml
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEngine.IMGUIModule.xml
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEngine.ImageConversionModule.xml
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEngine.InputModule.xml
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEngine.JSONSerializeModule.xml
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEngine.PhysicsModule.xml
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEngine.Physics2DModule.xml
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEngine.SharedInternalsModule.xml
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEngine.StyleSheetsModule.xml
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEngine.TerrainModule.xml
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEngine.TextRenderingModule.xml
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEngine.UnityAnalyticsModule.xml
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEngine.UnityConnectModule.xml
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEngine.UnityWebRequestModule.xml
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEngine.UnityWebRequestAssetBundleModule.xml
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEngine.UnityWebRequestAudioModule.xml
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEngine.XRModule.xml
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\nunit.framework.xml
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\Photon3Unity3D.xml
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\Temp\bin\Debug\UnityEngine.ClusterInputModule.xml
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\obj\Debug\Assembly-CSharp.csproj.CopyComplete
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\obj\Debug\Assembly-CSharp.dll
+D:\ludomoneypro\buttonssq\Ludo Champions2\Ludo Champions2\obj\Debug\Assembly-CSharp.pdb

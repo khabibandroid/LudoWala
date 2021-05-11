@@ -1,0 +1,1438 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{75BE373C-85EE-5157-114B-B311E451A7B4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2018_4_20;UNITY_2018_4;UNITY_2018;UNITY_INCLUDE_TESTS;UNITY_PURCHASING;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_TEXTURE_STREAMING;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_VIDEO;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_EVENT_QUEUE;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_AR;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;ENABLE_RUNTIME_PERMISSIONS;UNITY_ASTC_ONLY_DECOMPRESS;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_VSTU;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <UnityProjectGenerator>Unity/VSTU</UnityProjectGenerator>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>Android:13</UnityBuildTarget>
+    <UnityVersion>2018.4.20f1</UnityVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine">
+      <HintPath>D:\Installation\UnityEditor\2018.4.20f1\Editor\Data\Managed/UnityEngine/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>D:\Installation\UnityEditor\2018.4.20f1\Editor\Data\Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\AutoMovesDotsManager.cs" />
+    <Compile Include="Assets\CanvasParticleEmitter\Scripts\CanvasParticleCollider.cs" />
+    <Compile Include="Assets\CanvasParticleEmitter\Scripts\CanvasParticleEmitter.cs" />
+    <Compile Include="Assets\CanvasParticleEmitter\Scripts\CanvasParticleHelper.cs" />
+    <Compile Include="Assets\CanvasParticleEmitter\Scripts\ParticleOnTouch.cs" />
+    <Compile Include="Assets\CanvasParticleEmitter\Scripts\ShurikenCanvasRenderer.cs" />
+    <Compile Include="Assets\CanvasParticleEmitter\Scripts\TestParticleEmiter.cs" />
+    <Compile Include="Assets\CheckInternet.cs" />
+    <Compile Include="Assets\EpicVictoryEffects\Scripts\starFxController.cs" />
+    <Compile Include="Assets\EpicVictoryEffects\Scripts\vfxController.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Scripts\ConsoleBase.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Scripts\LogView.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Scripts\MenuBase.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\AccessTokenMenu.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\AppEvents.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\AppLinks.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\AppRequests.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\DialogShare.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\GraphRequest.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\MainMenu.cs" />
+    <Compile Include="Assets\FacebookSDK\Examples\Scripts\SubMenus\Pay.cs" />
+    <Compile Include="Assets\FortuneWheel\Scripts\FortuneWheelManager.cs" />
+    <Compile Include="Assets\GoogleSignIn\Future.cs" />
+    <Compile Include="Assets\GoogleSignIn\GoogleSignIn.cs" />
+    <Compile Include="Assets\GoogleSignIn\GoogleSignInConfiguration.cs" />
+    <Compile Include="Assets\GoogleSignIn\GoogleSignInStatusCode.cs" />
+    <Compile Include="Assets\GoogleSignIn\GoogleSignInUser.cs" />
+    <Compile Include="Assets\GoogleSignIn\Impl\BaseObject.cs" />
+    <Compile Include="Assets\GoogleSignIn\Impl\GoogleSignInImpl.cs" />
+    <Compile Include="Assets\GoogleSignIn\Impl\NativeFuture.cs" />
+    <Compile Include="Assets\GoogleSignIn\Impl\SignInHelperObject.cs" />
+    <Compile Include="Assets\GoogleSignInDemo.cs" />
+    <Compile Include="Assets\HiddenSplash.cs" />
+    <Compile Include="Assets\ItemCheck.cs" />
+    <Compile Include="Assets\JMO Assets\Cartoon FX\Demo\Assets\CFX_AutoStopLoopedEffect.cs" />
+    <Compile Include="Assets\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo_New.cs" />
+    <Compile Include="Assets\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo_RandomDir.cs" />
+    <Compile Include="Assets\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo_RandomDirectionTranslate.cs" />
+    <Compile Include="Assets\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo_RotateCamera.cs" />
+    <Compile Include="Assets\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo_Translate.cs" />
+    <Compile Include="Assets\JMO Assets\Cartoon FX\Scripts\CFX_AutoDestructShuriken.cs" />
+    <Compile Include="Assets\JMO Assets\Cartoon FX\Scripts\CFX_AutoRotate.cs" />
+    <Compile Include="Assets\JMO Assets\Cartoon FX\Scripts\CFX_LightFlicker.cs" />
+    <Compile Include="Assets\JMO Assets\Cartoon FX\Scripts\CFX_LightIntensityFade.cs" />
+    <Compile Include="Assets\KTK_FireWorks_Effects_Volume1\Scripts\SoundPlayTime.cs" />
+    <Compile Include="Assets\KunaiEditor\KunaiRotation.cs" />
+    <Compile Include="Assets\lead_month.cs" />
+    <Compile Include="Assets\LoadDataDemo.cs" />
+    <Compile Include="Assets\LOCAL_MODE\CheckKPYards.cs" />
+    <Compile Include="Assets\LOCAL_MODE\GleyPlugins\Ads\Example\Implementation.cs" />
+    <Compile Include="Assets\LOCAL_MODE\GleyPlugins\Ads\Example\TestAds.cs" />
+    <Compile Include="Assets\LOCAL_MODE\GleyPlugins\Ads\Scripts\AdSettings.cs" />
+    <Compile Include="Assets\LOCAL_MODE\GleyPlugins\Ads\Scripts\AdTypeSettings.cs" />
+    <Compile Include="Assets\LOCAL_MODE\GleyPlugins\Ads\Scripts\Advertisements.cs" />
+    <Compile Include="Assets\LOCAL_MODE\GleyPlugins\Ads\Scripts\AdvertiserSettings.cs" />
+    <Compile Include="Assets\LOCAL_MODE\GleyPlugins\Ads\Scripts\Constants.cs" />
+    <Compile Include="Assets\LOCAL_MODE\GleyPlugins\Ads\Scripts\FileLoader.cs" />
+    <Compile Include="Assets\LOCAL_MODE\GleyPlugins\Ads\Scripts\ICustomAds.cs" />
+    <Compile Include="Assets\LOCAL_MODE\GleyPlugins\Ads\Scripts\MediationSettings.cs" />
+    <Compile Include="Assets\LOCAL_MODE\GleyPlugins\Ads\Scripts\ScreenWriter.cs" />
+    <Compile Include="Assets\LOCAL_MODE\GleyPlugins\Ads\Scripts\SupportedAdvertisers\CustomAdColony.cs" />
+    <Compile Include="Assets\LOCAL_MODE\GleyPlugins\Ads\Scripts\SupportedAdvertisers\CustomAdmob.cs" />
+    <Compile Include="Assets\LOCAL_MODE\GleyPlugins\Ads\Scripts\SupportedAdvertisers\CustomAppLovin.cs" />
+    <Compile Include="Assets\LOCAL_MODE\GleyPlugins\Ads\Scripts\SupportedAdvertisers\CustomChartboost.cs" />
+    <Compile Include="Assets\LOCAL_MODE\GleyPlugins\Ads\Scripts\SupportedAdvertisers\CustomFacebook.cs" />
+    <Compile Include="Assets\LOCAL_MODE\GleyPlugins\Ads\Scripts\SupportedAdvertisers\CustomHeyzap.cs" />
+    <Compile Include="Assets\LOCAL_MODE\GleyPlugins\Ads\Scripts\SupportedAdvertisers\CustomIronSource.cs" />
+    <Compile Include="Assets\LOCAL_MODE\GleyPlugins\Ads\Scripts\SupportedAdvertisers\CustomMoPub.cs" />
+    <Compile Include="Assets\LOCAL_MODE\GleyPlugins\Ads\Scripts\SupportedAdvertisers\CustomUnityAds.cs" />
+    <Compile Include="Assets\LOCAL_MODE\GleyPlugins\Ads\Scripts\SupportedAdvertisers\CustomVungle.cs" />
+    <Compile Include="Assets\LOCAL_MODE\GleyPlugins\Ads\Scripts\UserSettings.cs" />
+    <Compile Include="Assets\LOCAL_MODE\GleyPlugins\Ads\Scripts\VisualScriptingSupport\BoltSupport\MobileAdsBoltSupport.cs" />
+    <Compile Include="Assets\LOCAL_MODE\GleyPlugins\Ads\Scripts\VisualScriptingSupport\GameFlowSupport\HideBanner.cs" />
+    <Compile Include="Assets\LOCAL_MODE\GleyPlugins\Ads\Scripts\VisualScriptingSupport\GameFlowSupport\InitializeGleyAds.cs" />
+    <Compile Include="Assets\LOCAL_MODE\GleyPlugins\Ads\Scripts\VisualScriptingSupport\GameFlowSupport\IsInterstitialAvailable.cs" />
+    <Compile Include="Assets\LOCAL_MODE\GleyPlugins\Ads\Scripts\VisualScriptingSupport\GameFlowSupport\IsRewardedVideoAvailable.cs" />
+    <Compile Include="Assets\LOCAL_MODE\GleyPlugins\Ads\Scripts\VisualScriptingSupport\GameFlowSupport\RemoveAds.cs" />
+    <Compile Include="Assets\LOCAL_MODE\GleyPlugins\Ads\Scripts\VisualScriptingSupport\GameFlowSupport\SetConsentToNo.cs" />
+    <Compile Include="Assets\LOCAL_MODE\GleyPlugins\Ads\Scripts\VisualScriptingSupport\GameFlowSupport\SetConsentToYes.cs" />
+    <Compile Include="Assets\LOCAL_MODE\GleyPlugins\Ads\Scripts\VisualScriptingSupport\GameFlowSupport\ShowBanner.cs" />
+    <Compile Include="Assets\LOCAL_MODE\GleyPlugins\Ads\Scripts\VisualScriptingSupport\GameFlowSupport\ShowInterstitial.cs" />
+    <Compile Include="Assets\LOCAL_MODE\GleyPlugins\Ads\Scripts\VisualScriptingSupport\GameFlowSupport\ShowRewardedVideo.cs" />
+    <Compile Include="Assets\LOCAL_MODE\GleyPlugins\Ads\Scripts\VisualScriptingSupport\GameFlowSupport\UserConsentWasSet.cs" />
+    <Compile Include="Assets\LOCAL_MODE\GleyPlugins\Ads\Scripts\VisualScriptingSupport\PlayMakerSupport\Actions\HideBanner.cs" />
+    <Compile Include="Assets\LOCAL_MODE\GleyPlugins\Ads\Scripts\VisualScriptingSupport\PlayMakerSupport\Actions\InitializePlaymakerAds.cs" />
+    <Compile Include="Assets\LOCAL_MODE\GleyPlugins\Ads\Scripts\VisualScriptingSupport\PlayMakerSupport\Actions\IsInterstitialAvailable.cs" />
+    <Compile Include="Assets\LOCAL_MODE\GleyPlugins\Ads\Scripts\VisualScriptingSupport\PlayMakerSupport\Actions\IsRewardedVideoAvailable.cs" />
+    <Compile Include="Assets\LOCAL_MODE\GleyPlugins\Ads\Scripts\VisualScriptingSupport\PlayMakerSupport\Actions\RemoveAds.cs" />
+    <Compile Include="Assets\LOCAL_MODE\GleyPlugins\Ads\Scripts\VisualScriptingSupport\PlayMakerSupport\Actions\SetConsentToNo.cs" />
+    <Compile Include="Assets\LOCAL_MODE\GleyPlugins\Ads\Scripts\VisualScriptingSupport\PlayMakerSupport\Actions\SetConsentToYes.cs" />
+    <Compile Include="Assets\LOCAL_MODE\GleyPlugins\Ads\Scripts\VisualScriptingSupport\PlayMakerSupport\Actions\ShowBanner.cs" />
+    <Compile Include="Assets\LOCAL_MODE\GleyPlugins\Ads\Scripts\VisualScriptingSupport\PlayMakerSupport\Actions\ShowInterstitial.cs" />
+    <Compile Include="Assets\LOCAL_MODE\GleyPlugins\Ads\Scripts\VisualScriptingSupport\PlayMakerSupport\Actions\ShowRewardedVideo.cs" />
+    <Compile Include="Assets\LOCAL_MODE\GleyPlugins\Ads\Scripts\VisualScriptingSupport\PlayMakerSupport\Actions\UserConsentWasSet.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NewBehaviourScript.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Examples\Scripts\InventorySystem\Game\EquipItems.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Examples\Scripts\InventorySystem\Game\EquipRandomItem.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Examples\Scripts\InventorySystem\Game\UICursor.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Examples\Scripts\InventorySystem\Game\UIEquipmentSlot.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Examples\Scripts\InventorySystem\Game\UIItemSlot.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Examples\Scripts\InventorySystem\Game\UIItemStorage.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Examples\Scripts\InventorySystem\Game\UIStorageSlot.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Examples\Scripts\InventorySystem\System\InvAttachmentPoint.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Examples\Scripts\InventorySystem\System\InvBaseItem.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Examples\Scripts\InventorySystem\System\InvDatabase.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Examples\Scripts\InventorySystem\System\InvEquipment.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Examples\Scripts\InventorySystem\System\InvGameItem.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Examples\Scripts\InventorySystem\System\InvStat.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Examples\Scripts\Other\ChatInput.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Examples\Scripts\Other\DownloadTexture.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Examples\Scripts\Other\ExampleDragDropItem.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Examples\Scripts\Other\ExampleDragDropSurface.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Examples\Scripts\Other\LagPosition.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Examples\Scripts\Other\LagRotation.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Examples\Scripts\Other\LoadLevelOnClick.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Examples\Scripts\Other\LookAtTarget.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Examples\Scripts\Other\OpenURLOnClick.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Examples\Scripts\Other\PanWithMouse.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Examples\Scripts\Other\PerspectivePixelPerfect.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Examples\Scripts\Other\PlayIdleAnimations.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Examples\Scripts\Other\SetColorPickerColor.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Examples\Scripts\Other\Spin.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Examples\Scripts\Other\SpinWithMouse.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Examples\Scripts\Other\Tutorial5.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Examples\Scripts\Other\UISliderColors.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Examples\Scripts\Other\WindowAutoYaw.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Examples\Scripts\Other\WindowDragTilt.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\Interaction\EnvelopContent.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\Interaction\LanguageSelection.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\Interaction\TypewriterEffect.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\Interaction\UIButton.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\Interaction\UIButtonActivate.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\Interaction\UIButtonColor.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\Interaction\UIButtonKeys.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\Interaction\UIButtonMessage.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\Interaction\UIButtonOffset.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\Interaction\UIButtonRotation.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\Interaction\UIButtonScale.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\Interaction\UICenterOnChild.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\Interaction\UICenterOnClick.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\Interaction\UIDragCamera.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\Interaction\UIDragDropContainer.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\Interaction\UIDragDropItem.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\Interaction\UIDragDropRoot.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\Interaction\UIDraggableCamera.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\Interaction\UIDragObject.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\Interaction\UIDragResize.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\Interaction\UIDragScrollView.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\Interaction\UIEventTrigger.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\Interaction\UIForwardEvents.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\Interaction\UIGrid.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\Interaction\UIImageButton.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\Interaction\UIKeyBinding.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\Interaction\UIKeyNavigation.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\Interaction\UIPlayAnimation.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\Interaction\UIPlaySound.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\Interaction\UIPlayTween.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\Interaction\UIPopupList.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\Interaction\UIProgressBar.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\Interaction\UISavedOption.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\Interaction\UIScrollBar.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\Interaction\UIScrollView.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\Interaction\UIShowControlScheme.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\Interaction\UISlider.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\Interaction\UISoundVolume.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\Interaction\UITable.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\Interaction\UIToggle.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\Interaction\UIToggledComponents.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\Interaction\UIToggledObjects.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\Interaction\UIWidgetContainer.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\Interaction\UIWrapContent.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\Internal\ActiveAnimation.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\Internal\AnimationOrTween.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\Internal\BetterList.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\Internal\BMFont.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\Internal\BMGlyph.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\Internal\BMSymbol.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\Internal\ByteReader.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\Internal\EventDelegate.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\Internal\Localization.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\Internal\MinMaxRangeAttribute.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\Internal\NGUIDebug.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\Internal\NGUIMath.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\Internal\NGUIText.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\Internal\NGUITools.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\Internal\PropertyBinding.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\Internal\PropertyReference.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\Internal\RealTime.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\Internal\SpringPanel.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\Internal\UIBasicSprite.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\Internal\UIDrawCall.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\Internal\UIEventListener.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\Internal\UIGeometry.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\Internal\UIRect.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\Internal\UISnapshotPoint.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\Internal\UIWidget.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\Tweening\AnimatedAlpha.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\Tweening\AnimatedColor.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\Tweening\AnimatedWidget.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\Tweening\SpringPosition.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\Tweening\TweenAlpha.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\Tweening\TweenColor.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\Tweening\TweenFill.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\Tweening\TweenFOV.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\Tweening\TweenHeight.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\Tweening\TweenLetters.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\Tweening\TweenOrthoSize.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\Tweening\TweenPosition.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\Tweening\TweenRotation.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\Tweening\TweenScale.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\Tweening\TweenTransform.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\Tweening\TweenVolume.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\Tweening\TweenWidth.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\Tweening\UITweener.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\UI\NGUIAtlas.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\UI\NGUIFont.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\UI\UI2DSprite.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\UI\UI2DSpriteAnimation.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\UI\UIAnchor.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\UI\UIAtlas.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\UI\UICamera.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\UI\UIColorPicker.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\UI\UIFont.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\UI\UIInput.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\UI\UIInputOnGUI.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\UI\UILabel.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\UI\UILocalize.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\UI\UIOrthoCamera.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\UI\UIPanel.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\UI\UIRoot.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\UI\UISprite.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\UI\UISpriteAnimation.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\UI\UISpriteCollection.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\UI\UISpriteData.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\UI\UIStretch.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\UI\UITextList.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\UI\UITexture.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\UI\UITooltip.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUI\Scripts\UI\UIViewport.cs" />
+    <Compile Include="Assets\LOCAL_MODE\NGUIMaskedTexture\UIMaskedTexture.cs" />
+    <Compile Include="Assets\LOCAL_MODE\SceneManagerCustom.cs" />
+    <Compile Include="Assets\LOCAL_MODE\Scripts\AdsScript.cs" />
+    <Compile Include="Assets\LOCAL_MODE\Scripts\ArrowEffect.cs" />
+    <Compile Include="Assets\LOCAL_MODE\Scripts\ChatPanelController.cs" />
+    <Compile Include="Assets\LOCAL_MODE\Scripts\ContestManager.cs" />
+    <Compile Include="Assets\LOCAL_MODE\Scripts\ExitPanelManager.cs" />
+    <Compile Include="Assets\LOCAL_MODE\Scripts\FirebaseAuthManager.cs" />
+    <Compile Include="Assets\LOCAL_MODE\Scripts\FirebaseFacebookManager.cs" />
+    <Compile Include="Assets\LOCAL_MODE\Scripts\FriendsManager.cs" />
+    <Compile Include="Assets\LOCAL_MODE\Scripts\GameManager.cs" />
+    <Compile Include="Assets\LOCAL_MODE\Scripts\GameUIController.cs" />
+    <Compile Include="Assets\LOCAL_MODE\Scripts\Global.cs" />
+    <Compile Include="Assets\LOCAL_MODE\Scripts\GoogleIAPManager.cs" />
+    <Compile Include="Assets\LOCAL_MODE\Scripts\HomeManager.cs" />
+    <Compile Include="Assets\LOCAL_MODE\Scripts\ImageDownload.cs" />
+    <Compile Include="Assets\LOCAL_MODE\Scripts\ImagePicker.cs" />
+    <Compile Include="Assets\LOCAL_MODE\Scripts\LanguageController.cs" />
+    <Compile Include="Assets\LOCAL_MODE\Scripts\LoadingComponent.cs" />
+    <Compile Include="Assets\LOCAL_MODE\Scripts\LoginManager.cs" />
+    <Compile Include="Assets\LOCAL_MODE\Scripts\LudoDiceController.cs" />
+    <Compile Include="Assets\LOCAL_MODE\Scripts\LudoDiceRollController.cs" />
+    <Compile Include="Assets\LOCAL_MODE\Scripts\LudoPathController.cs" />
+    <Compile Include="Assets\LOCAL_MODE\Scripts\LudoPawnController.cs" />
+    <Compile Include="Assets\LOCAL_MODE\Scripts\LudoPlayerController.cs" />
+    <Compile Include="Assets\LOCAL_MODE\Scripts\LudoRoundController.cs" />
+    <Compile Include="Assets\LOCAL_MODE\Scripts\MenuManager.cs" />
+    <Compile Include="Assets\LOCAL_MODE\Scripts\MultiplayerModeSettings.cs" />
+    <Compile Include="Assets\LOCAL_MODE\Scripts\PlayWithFriendsManager.cs" />
+    <Compile Include="Assets\LOCAL_MODE\Scripts\PrivateJoinManager.cs" />
+    <Compile Include="Assets\LOCAL_MODE\Scripts\ProfileManager.cs" />
+    <Compile Include="Assets\LOCAL_MODE\Scripts\RankItem.cs" />
+    <Compile Include="Assets\LOCAL_MODE\Scripts\RateUsManager.cs" />
+    <Compile Include="Assets\LOCAL_MODE\Scripts\ReferralCodeManager.cs" />
+    <Compile Include="Assets\LOCAL_MODE\Scripts\RoomManager.cs" />
+    <Compile Include="Assets\LOCAL_MODE\Scripts\SaveDataManager.cs" />
+    <Compile Include="Assets\LOCAL_MODE\Scripts\SearchUserManager.cs" />
+    <Compile Include="Assets\LOCAL_MODE\Scripts\SettingController.cs" />
+    <Compile Include="Assets\LOCAL_MODE\Scripts\SettingController2.cs" />
+    <Compile Include="Assets\LOCAL_MODE\Scripts\ShareCodeManager.cs" />
+    <Compile Include="Assets\LOCAL_MODE\Scripts\SocketManager.cs" />
+    <Compile Include="Assets\LOCAL_MODE\Scripts\SpinController.cs" />
+    <Compile Include="Assets\LOCAL_MODE\Scripts\SpinWheelDot.cs" />
+    <Compile Include="Assets\LOCAL_MODE\Scripts\StoreManager.cs" />
+    <Compile Include="Assets\LOCAL_MODE\Scripts\ToggleController.cs" />
+    <Compile Include="Assets\LOCAL_MODE\Scripts\UIPopup.cs" />
+    <Compile Include="Assets\LOCAL_MODE\SetTournamentTime.cs" />
+    <Compile Include="Assets\LOCAL_MODE\SignInSample\SigninSampleScript.cs" />
+    <Compile Include="Assets\LOCAL_MODE\SocketIO\JSONObject\JSONObject.cs" />
+    <Compile Include="Assets\LOCAL_MODE\SocketIO\JSONObject\JSONTemplates.cs" />
+    <Compile Include="Assets\LOCAL_MODE\SocketIO\JSONObject\VectorTemplates.cs" />
+    <Compile Include="Assets\LOCAL_MODE\SocketIO\Scripts\SocketIO\Ack.cs" />
+    <Compile Include="Assets\LOCAL_MODE\SocketIO\Scripts\SocketIO\Decoder.cs" />
+    <Compile Include="Assets\LOCAL_MODE\SocketIO\Scripts\SocketIO\Encoder.cs" />
+    <Compile Include="Assets\LOCAL_MODE\SocketIO\Scripts\SocketIO\EnginePacketType.cs" />
+    <Compile Include="Assets\LOCAL_MODE\SocketIO\Scripts\SocketIO\Packet.cs" />
+    <Compile Include="Assets\LOCAL_MODE\SocketIO\Scripts\SocketIO\Parser.cs" />
+    <Compile Include="Assets\LOCAL_MODE\SocketIO\Scripts\SocketIO\SocketIOComponent.cs" />
+    <Compile Include="Assets\LOCAL_MODE\SocketIO\Scripts\SocketIO\SocketIOEvent.cs" />
+    <Compile Include="Assets\LOCAL_MODE\SocketIO\Scripts\SocketIO\SocketIOException.cs" />
+    <Compile Include="Assets\LOCAL_MODE\SocketIO\Scripts\SocketIO\SocketPacketType.cs" />
+    <Compile Include="Assets\LOCAL_MODE\SocketIO\Scripts\Test\TestSocketIO.cs" />
+    <Compile Include="Assets\LOCAL_MODE\SocketIO\WebsocketSharp\AssemblyInfo.cs" />
+    <Compile Include="Assets\LOCAL_MODE\SocketIO\WebsocketSharp\ByteOrder.cs" />
+    <Compile Include="Assets\LOCAL_MODE\SocketIO\WebsocketSharp\CloseEventArgs.cs" />
+    <Compile Include="Assets\LOCAL_MODE\SocketIO\WebsocketSharp\CloseStatusCode.cs" />
+    <Compile Include="Assets\LOCAL_MODE\SocketIO\WebsocketSharp\CompressionMethod.cs" />
+    <Compile Include="Assets\LOCAL_MODE\SocketIO\WebsocketSharp\ErrorEventArgs.cs" />
+    <Compile Include="Assets\LOCAL_MODE\SocketIO\WebsocketSharp\Ext.cs" />
+    <Compile Include="Assets\LOCAL_MODE\SocketIO\WebsocketSharp\Fin.cs" />
+    <Compile Include="Assets\LOCAL_MODE\SocketIO\WebsocketSharp\HandshakeBase.cs" />
+    <Compile Include="Assets\LOCAL_MODE\SocketIO\WebsocketSharp\HandshakeRequest.cs" />
+    <Compile Include="Assets\LOCAL_MODE\SocketIO\WebsocketSharp\HandshakeResponse.cs" />
+    <Compile Include="Assets\LOCAL_MODE\SocketIO\WebsocketSharp\LogData.cs" />
+    <Compile Include="Assets\LOCAL_MODE\SocketIO\WebsocketSharp\Logger.cs" />
+    <Compile Include="Assets\LOCAL_MODE\SocketIO\WebsocketSharp\LogLevel.cs" />
+    <Compile Include="Assets\LOCAL_MODE\SocketIO\WebsocketSharp\Mask.cs" />
+    <Compile Include="Assets\LOCAL_MODE\SocketIO\WebsocketSharp\MessageEventArgs.cs" />
+    <Compile Include="Assets\LOCAL_MODE\SocketIO\WebsocketSharp\Net\AuthenticationBase.cs" />
+    <Compile Include="Assets\LOCAL_MODE\SocketIO\WebsocketSharp\Net\AuthenticationChallenge.cs" />
+    <Compile Include="Assets\LOCAL_MODE\SocketIO\WebsocketSharp\Net\AuthenticationResponse.cs" />
+    <Compile Include="Assets\LOCAL_MODE\SocketIO\WebsocketSharp\Net\AuthenticationSchemes.cs" />
+    <Compile Include="Assets\LOCAL_MODE\SocketIO\WebsocketSharp\Net\Chunk.cs" />
+    <Compile Include="Assets\LOCAL_MODE\SocketIO\WebsocketSharp\Net\ChunkedRequestStream.cs" />
+    <Compile Include="Assets\LOCAL_MODE\SocketIO\WebsocketSharp\Net\ChunkStream.cs" />
+    <Compile Include="Assets\LOCAL_MODE\SocketIO\WebsocketSharp\Net\Cookie.cs" />
+    <Compile Include="Assets\LOCAL_MODE\SocketIO\WebsocketSharp\Net\CookieCollection.cs" />
+    <Compile Include="Assets\LOCAL_MODE\SocketIO\WebsocketSharp\Net\CookieException.cs" />
+    <Compile Include="Assets\LOCAL_MODE\SocketIO\WebsocketSharp\Net\EndPointListener.cs" />
+    <Compile Include="Assets\LOCAL_MODE\SocketIO\WebsocketSharp\Net\EndPointManager.cs" />
+    <Compile Include="Assets\LOCAL_MODE\SocketIO\WebsocketSharp\Net\HttpBasicIdentity.cs" />
+    <Compile Include="Assets\LOCAL_MODE\SocketIO\WebsocketSharp\Net\HttpConnection.cs" />
+    <Compile Include="Assets\LOCAL_MODE\SocketIO\WebsocketSharp\Net\HttpDigestIdentity.cs" />
+    <Compile Include="Assets\LOCAL_MODE\SocketIO\WebsocketSharp\Net\HttpHeaderInfo.cs" />
+    <Compile Include="Assets\LOCAL_MODE\SocketIO\WebsocketSharp\Net\HttpHeaderType.cs" />
+    <Compile Include="Assets\LOCAL_MODE\SocketIO\WebsocketSharp\Net\HttpListener.cs" />
+    <Compile Include="Assets\LOCAL_MODE\SocketIO\WebsocketSharp\Net\HttpListenerContext.cs" />
+    <Compile Include="Assets\LOCAL_MODE\SocketIO\WebsocketSharp\Net\HttpListenerException.cs" />
+    <Compile Include="Assets\LOCAL_MODE\SocketIO\WebsocketSharp\Net\HttpListenerPrefixCollection.cs" />
+    <Compile Include="Assets\LOCAL_MODE\SocketIO\WebsocketSharp\Net\HttpListenerRequest.cs" />
+    <Compile Include="Assets\LOCAL_MODE\SocketIO\WebsocketSharp\Net\HttpListenerResponse.cs" />
+    <Compile Include="Assets\LOCAL_MODE\SocketIO\WebsocketSharp\Net\HttpStatusCode.cs" />
+    <Compile Include="Assets\LOCAL_MODE\SocketIO\WebsocketSharp\Net\HttpStreamAsyncResult.cs" />
+    <Compile Include="Assets\LOCAL_MODE\SocketIO\WebsocketSharp\Net\HttpUtility.cs" />
+    <Compile Include="Assets\LOCAL_MODE\SocketIO\WebsocketSharp\Net\HttpVersion.cs" />
+    <Compile Include="Assets\LOCAL_MODE\SocketIO\WebsocketSharp\Net\InputChunkState.cs" />
+    <Compile Include="Assets\LOCAL_MODE\SocketIO\WebsocketSharp\Net\InputState.cs" />
+    <Compile Include="Assets\LOCAL_MODE\SocketIO\WebsocketSharp\Net\LineState.cs" />
+    <Compile Include="Assets\LOCAL_MODE\SocketIO\WebsocketSharp\Net\ListenerAsyncResult.cs" />
+    <Compile Include="Assets\LOCAL_MODE\SocketIO\WebsocketSharp\Net\ListenerPrefix.cs" />
+    <Compile Include="Assets\LOCAL_MODE\SocketIO\WebsocketSharp\Net\NetworkCredential.cs" />
+    <Compile Include="Assets\LOCAL_MODE\SocketIO\WebsocketSharp\Net\QueryStringCollection.cs" />
+    <Compile Include="Assets\LOCAL_MODE\SocketIO\WebsocketSharp\Net\ReadBufferState.cs" />
+    <Compile Include="Assets\LOCAL_MODE\SocketIO\WebsocketSharp\Net\RequestStream.cs" />
+    <Compile Include="Assets\LOCAL_MODE\SocketIO\WebsocketSharp\Net\ResponseStream.cs" />
+    <Compile Include="Assets\LOCAL_MODE\SocketIO\WebsocketSharp\Net\Security\SslStream.cs" />
+    <Compile Include="Assets\LOCAL_MODE\SocketIO\WebsocketSharp\Net\WebHeaderCollection.cs" />
+    <Compile Include="Assets\LOCAL_MODE\SocketIO\WebsocketSharp\Net\WebSockets\HttpListenerWebSocketContext.cs" />
+    <Compile Include="Assets\LOCAL_MODE\SocketIO\WebsocketSharp\Net\WebSockets\TcpListenerWebSocketContext.cs" />
+    <Compile Include="Assets\LOCAL_MODE\SocketIO\WebsocketSharp\Net\WebSockets\WebSocketContext.cs" />
+    <Compile Include="Assets\LOCAL_MODE\SocketIO\WebsocketSharp\Opcode.cs" />
+    <Compile Include="Assets\LOCAL_MODE\SocketIO\WebsocketSharp\PayloadData.cs" />
+    <Compile Include="Assets\LOCAL_MODE\SocketIO\WebsocketSharp\Rsv.cs" />
+    <Compile Include="Assets\LOCAL_MODE\SocketIO\WebsocketSharp\WebSocket.cs" />
+    <Compile Include="Assets\LOCAL_MODE\SocketIO\WebsocketSharp\WebSocketException.cs" />
+    <Compile Include="Assets\LOCAL_MODE\SocketIO\WebsocketSharp\WebSocketFrame.cs" />
+    <Compile Include="Assets\LOCAL_MODE\SocketIO\WebsocketSharp\WebSocketState.cs" />
+    <Compile Include="Assets\LOCAL_MODE\SocketIO\WebsocketSharp\WebSocketStream.cs" />
+    <Compile Include="Assets\LOCAL_MODE\Spinner And Timer\Scripts\CircleHealth.cs" />
+    <Compile Include="Assets\LOCAL_MODE\Spinner And Timer\Scripts\needle.cs" />
+    <Compile Include="Assets\LOCAL_MODE\Spinner And Timer\Scripts\spinner.cs" />
+    <Compile Include="Assets\LOCAL_MODE\UserProfiler.cs" />
+    <Compile Include="Assets\Ludo Masters\Scripts\AddChatBubbles.cs" />
+    <Compile Include="Assets\Ludo Masters\Scripts\AddEmojiBubbles.cs" />
+    <Compile Include="Assets\Ludo Masters\Scripts\BuyItemControl.cs" />
+    <Compile Include="Assets\Ludo Masters\Scripts\ChangeStoreTabsColor.cs" />
+    <Compile Include="Assets\Ludo Masters\Scripts\ChatShopController.cs" />
+    <Compile Include="Assets\Ludo Masters\Scripts\ChatWindowController.cs" />
+    <Compile Include="Assets\Ludo Masters\Scripts\ClearPlayerPrefs.cs" />
+    <Compile Include="Assets\Ludo Masters\Scripts\ConnectionLostController.cs" />
+    <Compile Include="Assets\Ludo Masters\Scripts\ControlAvatars.cs" />
+    <Compile Include="Assets\Ludo Masters\Scripts\DialogGUIController.cs" />
+    <Compile Include="Assets\Ludo Masters\Scripts\DiceController2.cs" />
+    <Compile Include="Assets\Ludo Masters\Scripts\EditProfileController.cs" />
+    <Compile Include="Assets\Ludo Masters\Scripts\EmojiShopController.cs" />
+    <Compile Include="Assets\Ludo Masters\Scripts\Enums.cs" />
+    <Compile Include="Assets\Ludo Masters\Scripts\EventCounter.cs" />
+    <Compile Include="Assets\Ludo Masters\Scripts\FriendsFilteringScript.cs" />
+    <Compile Include="Assets\Ludo Masters\Scripts\Game\CueController.cs" />
+    <Compile Include="Assets\Ludo Masters\Scripts\Game\GameControllerScript.cs" />
+    <Compile Include="Assets\Ludo Masters\Scripts\Game\HUDFPS.cs" />
+    <Compile Include="Assets\Ludo Masters\Scripts\Game\PlayerObject.cs" />
+    <Compile Include="Assets\Ludo Masters\Scripts\Game\StaticStrings.cs" />
+    <Compile Include="Assets\Ludo Masters\Scripts\GameConfigrationController.cs" />
+    <Compile Include="Assets\Ludo Masters\Scripts\GameDiceController.cs" />
+    <Compile Include="Assets\Ludo Masters\Scripts\GameFinishWindowController.cs" />
+    <Compile Include="Assets\Ludo Masters\Scripts\GameGUIController.cs" />
+    <Compile Include="Assets\Ludo Masters\Scripts\GameInitScript.cs" />
+    <Compile Include="Assets\Ludo Masters\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Ludo Masters\Scripts\GlobalVariables.cs" />
+    <Compile Include="Assets\Ludo Masters\Scripts\HighlightFollowPawn.cs" />
+    <Compile Include="Assets\Ludo Masters\Scripts\IAPController.cs" />
+    <Compile Include="Assets\Ludo Masters\Scripts\IMiniGame.cs" />
+    <Compile Include="Assets\Ludo Masters\Scripts\InitMenuScript.cs" />
+    <Compile Include="Assets\Ludo Masters\Scripts\InviteRewardTextScript.cs" />
+    <Compile Include="Assets\Ludo Masters\Scripts\LudoGameController.cs" />
+    <Compile Include="Assets\Ludo Masters\Scripts\LudoPathObjectController.cs" />
+    <Compile Include="Assets\Ludo Masters\Scripts\LudoPawnController.cs" />
+    <Compile Include="Assets\Ludo Masters\Scripts\MenuEffect.cs" />
+    <Compile Include="Assets\Ludo Masters\Scripts\MultiplayerGame.cs" />
+    <Compile Include="Assets\Ludo Masters\Scripts\Notifications\CustomAnimations.cs" />
+    <Compile Include="Assets\Ludo Masters\Scripts\Notifications\LocalNotification.cs" />
+    <Compile Include="Assets\Ludo Masters\Scripts\Notifications\NotificationTest.cs" />
+    <Compile Include="Assets\Ludo Masters\Scripts\PhotonChatListener.cs" />
+    <Compile Include="Assets\Ludo Masters\Scripts\PhotonChatListener2.cs" />
+    <Compile Include="Assets\Ludo Masters\Scripts\PlayerAvatarController.cs" />
+    <Compile Include="Assets\Ludo Masters\Scripts\PlayerInfoController.cs" />
+    <Compile Include="Assets\Ludo Masters\Scripts\PlayFabAddFriend.cs" />
+    <Compile Include="Assets\Ludo Masters\Scripts\PlayFabFriendScript.cs" />
+    <Compile Include="Assets\Ludo Masters\Scripts\PlayFabManager.cs" />
+    <Compile Include="Assets\Ludo Masters\Scripts\ProfilePictureController.cs" />
+    <Compile Include="Assets\Ludo Masters\Scripts\ReconnectWindowController.cs" />
+    <Compile Include="Assets\Ludo Masters\Scripts\SelectedTabluButtonClicked.cs" />
+    <Compile Include="Assets\Ludo Masters\Scripts\SetMyData.cs" />
+    <Compile Include="Assets\Ludo Masters\Scripts\SettingsWindowController.cs" />
+    <Compile Include="Assets\Ludo Masters\Scripts\StartScriptController.cs" />
+    <Compile Include="Assets\Ludo Masters\Scripts\StaticGameVariablesController.cs" />
+    <Compile Include="Assets\Ludo Masters\Scripts\UpdatePlayerTimer.cs" />
+    <Compile Include="Assets\Ludo Masters\Scripts\WindowTransitionController.cs" />
+    <Compile Include="Assets\Ludo Masters\Scripts\WinnerControllerScript.cs" />
+    <Compile Include="Assets\Ludo Masters\Scripts\YouWinMessageChangeSprite.cs" />
+    <Compile Include="Assets\MenuButtonAlphaManagerCustom.cs" />
+    <Compile Include="Assets\MoneyRoomManagerCustom.cs" />
+    <Compile Include="Assets\OnlineMoneyRoomRateManager.cs" />
+    <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\CustomTypes.cs" />
+    <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Enums.cs" />
+    <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Extensions.cs" />
+    <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\FriendInfo.cs" />
+    <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\GizmoType.cs" />
+    <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\LoadbalancingPeer.cs" />
+    <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs" />
+    <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonClasses.cs" />
+    <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs" />
+    <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonLagSimulationGui.cs" />
+    <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs" />
+    <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonPlayer.cs" />
+    <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonStatsGui.cs" />
+    <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonStreamQueue.cs" />
+    <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonView.cs" />
+    <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PingCloudRegions.cs" />
+    <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Room.cs" />
+    <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\RoomInfo.cs" />
+    <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\RPC.cs" />
+    <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\ServerSettings.cs" />
+    <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\SocketUdp.cs" />
+    <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\SocketWebTcp.cs" />
+    <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonAnimatorView.cs" />
+    <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonRigidbody2DView.cs" />
+    <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonRigidbodyView.cs" />
+    <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonTransformView.cs" />
+    <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonTransformViewPositionControl.cs" />
+    <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonTransformViewPositionModel.cs" />
+    <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonTransformViewRotationControl.cs" />
+    <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonTransformViewRotationModel.cs" />
+    <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonTransformViewScaleControl.cs" />
+    <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonTransformViewScaleModel.cs" />
+    <Compile Include="Assets\Photon Unity Networking\UtilityScripts\ConnectAndJoinRandom.cs" />
+    <Compile Include="Assets\Photon Unity Networking\UtilityScripts\CullArea.cs" />
+    <Compile Include="Assets\Photon Unity Networking\UtilityScripts\InputToEvent.cs" />
+    <Compile Include="Assets\Photon Unity Networking\UtilityScripts\InRoomChat.cs" />
+    <Compile Include="Assets\Photon Unity Networking\UtilityScripts\ManualPhotonViewAllocator.cs" />
+    <Compile Include="Assets\Photon Unity Networking\UtilityScripts\MoveByKeys.cs" />
+    <Compile Include="Assets\Photon Unity Networking\UtilityScripts\NetworkCullingHandler.cs" />
+    <Compile Include="Assets\Photon Unity Networking\UtilityScripts\OnClickDestroy.cs" />
+    <Compile Include="Assets\Photon Unity Networking\UtilityScripts\OnClickInstantiate.cs" />
+    <Compile Include="Assets\Photon Unity Networking\UtilityScripts\OnClickLoadSomething.cs" />
+    <Compile Include="Assets\Photon Unity Networking\UtilityScripts\OnJoinedInstantiate.cs" />
+    <Compile Include="Assets\Photon Unity Networking\UtilityScripts\OnStartDelete.cs" />
+    <Compile Include="Assets\Photon Unity Networking\UtilityScripts\PhotonPlayer\PlayerRoomIndexing.cs" />
+    <Compile Include="Assets\Photon Unity Networking\UtilityScripts\PickupItem.cs" />
+    <Compile Include="Assets\Photon Unity Networking\UtilityScripts\PickupItemSimple.cs" />
+    <Compile Include="Assets\Photon Unity Networking\UtilityScripts\PickupItemSyncer.cs" />
+    <Compile Include="Assets\Photon Unity Networking\UtilityScripts\PointedAtGameObjectInfo.cs" />
+    <Compile Include="Assets\Photon Unity Networking\UtilityScripts\PunPlayerScores.cs" />
+    <Compile Include="Assets\Photon Unity Networking\UtilityScripts\PunTeams.cs" />
+    <Compile Include="Assets\Photon Unity Networking\UtilityScripts\PunTurnManager.cs" />
+    <Compile Include="Assets\Photon Unity Networking\UtilityScripts\QuitOnEscapeOrBack.cs" />
+    <Compile Include="Assets\Photon Unity Networking\UtilityScripts\ShowStatusWhenConnecting.cs" />
+    <Compile Include="Assets\Photon Unity Networking\UtilityScripts\SmoothSyncMovement.cs" />
+    <Compile Include="Assets\Photon Unity Networking\UtilityScripts\SupportLogger.cs" />
+    <Compile Include="Assets\Photon Unity Networking\UtilityScripts\TimeKeeper.cs" />
+    <Compile Include="Assets\Photon Unity Networking\UtilityScripts\UI\ButtonInsideScrollList.cs" />
+    <Compile Include="Assets\Photon Unity Networking\UtilityScripts\UI\TextButtonTransition.cs" />
+    <Compile Include="Assets\Photon Unity Networking\UtilityScripts\UI\TextToggleIsOnTransition.cs" />
+    <Compile Include="Assets\PhotonChatApi\ChatChannel.cs" />
+    <Compile Include="Assets\PhotonChatApi\ChatClient.cs" />
+    <Compile Include="Assets\PhotonChatApi\ChatDisconnectCause.cs" />
+    <Compile Include="Assets\PhotonChatApi\ChatEventCode.cs" />
+    <Compile Include="Assets\PhotonChatApi\ChatOperationCode.cs" />
+    <Compile Include="Assets\PhotonChatApi\ChatParameterCode.cs" />
+    <Compile Include="Assets\PhotonChatApi\ChatPeer.cs" />
+    <Compile Include="Assets\PhotonChatApi\ChatState.cs" />
+    <Compile Include="Assets\PhotonChatApi\ChatUserStatus.cs" />
+    <Compile Include="Assets\PhotonChatApi\IChatClientListener.cs" />
+    <Compile Include="Assets\Prefabs\Challenges\ChallengeRequestHandler.cs" />
+    <Compile Include="Assets\Prefabs\Challenges\UserChallengeManager.cs" />
+    <Compile Include="Assets\Scenes\LoadingScreen.cs" />
+    <Compile Include="Assets\Scripts\Banners.cs" />
+    <Compile Include="Assets\Scripts\BGSound.cs" />
+    <Compile Include="Assets\Scripts\C_Banner.cs" />
+    <Compile Include="Assets\Scripts\enroll_tour.cs" />
+    <Compile Include="Assets\Scripts\EnterPrivateCodeDialogController.cs" />
+    <Compile Include="Assets\Scripts\ExitGame.cs" />
+    <Compile Include="Assets\Scripts\FacebookFriendsMenu.cs" />
+    <Compile Include="Assets\Scripts\FacebookManager.cs" />
+    <Compile Include="Assets\Scripts\GoogleLoginPanel.cs" />
+    <Compile Include="Assets\Scripts\homebanner.cs" />
+    <Compile Include="Assets\Scripts\Login.cs" />
+    <Compile Include="Assets\Scripts\MainmenuManager.cs" />
+    <Compile Include="Assets\Scripts\ManifestMod.cs" />
+    <Compile Include="Assets\Scripts\MENUmanager.cs" />
+    <Compile Include="Assets\Scripts\opponent_prof.cs" />
+    <Compile Include="Assets\Scripts\payment\payment.cs" />
+    <Compile Include="Assets\Scripts\payment\payment_history.cs" />
+    <Compile Include="Assets\Scripts\payment\SampleWebView.cs" />
+    <Compile Include="Assets\Scripts\PhoneNumberLoginPanel.cs" />
+    <Compile Include="Assets\Scripts\play_tour.cs" />
+    <Compile Include="Assets\Scripts\Result.cs" />
+    <Compile Include="Assets\Scripts\Sharebutton.cs" />
+    <Compile Include="Assets\Scripts\sharecode.cs" />
+    <Compile Include="Assets\Scripts\SimpleJSON.cs" />
+    <Compile Include="Assets\Scripts\TransactionsPayment.cs" />
+    <Compile Include="Assets\Scripts\user_prof.cs" />
+    <Compile Include="Assets\Scripts\Verify_Pan_Bank.cs" />
+    <Compile Include="Assets\SlotRollCustom.cs" />
+    <Compile Include="Assets\SwipeMenuCustom.cs" />
+    <Compile Include="Assets\TOAST\Kit\Common\Indicator\Scripts\Internal\BaseIndicator.cs" />
+    <Compile Include="Assets\TOAST\Kit\Common\Indicator\Scripts\Internal\Consts\Launching.cs" />
+    <Compile Include="Assets\TOAST\Kit\Common\Indicator\Scripts\Internal\EditorIndicator.cs" />
+    <Compile Include="Assets\TOAST\Kit\Common\Indicator\Scripts\Internal\Implementation\IndicatorImplementation.cs" />
+    <Compile Include="Assets\TOAST\Kit\Common\Indicator\Scripts\Internal\InAppIndicator.cs" />
+    <Compile Include="Assets\TOAST\Kit\Common\Indicator\Scripts\Internal\IndicatorField.cs" />
+    <Compile Include="Assets\TOAST\Kit\Common\Indicator\Scripts\Internal\UnityWebRequestHelper.cs" />
+    <Compile Include="Assets\TOAST\Kit\Common\Indicator\Scripts\Internal\Vo\LaunchingInfo.cs" />
+    <Compile Include="Assets\TOAST\Kit\Common\Indicator\Scripts\Internal\Vo\QueueItem.cs" />
+    <Compile Include="Assets\TOAST\Kit\Common\Indicator\Scripts\ToastKitIndicator.cs" />
+    <Compile Include="Assets\TOAST\Kit\Common\Indicator\Scripts\ToastKitIndicatorData.cs" />
+    <Compile Include="Assets\TOAST\Kit\Common\Log\ToastKitLogger.cs" />
+    <Compile Include="Assets\TOAST\Kit\Common\Multilanguage\Internal\MultilanguageImplementation.cs" />
+    <Compile Include="Assets\TOAST\Kit\Common\Multilanguage\Internal\MultilanguageLoader.cs" />
+    <Compile Include="Assets\TOAST\Kit\Common\Multilanguage\Internal\MultilanguageServiceData.cs" />
+    <Compile Include="Assets\TOAST\Kit\Common\Multilanguage\Internal\MultilanguageUtil.cs" />
+    <Compile Include="Assets\TOAST\Kit\Common\Multilanguage\Internal\MultilanguageXml.cs" />
+    <Compile Include="Assets\TOAST\Kit\Common\Multilanguage\ToastKitMultilanguage.cs" />
+    <Compile Include="Assets\TOAST\Kit\Common\Multilanguage\ToastKitMultilanguageDefine.cs" />
+    <Compile Include="Assets\TOAST\Kit\Common\ThirdParty\LitJson\IJsonWrapper.cs" />
+    <Compile Include="Assets\TOAST\Kit\Common\ThirdParty\LitJson\JsonData.cs" />
+    <Compile Include="Assets\TOAST\Kit\Common\ThirdParty\LitJson\JsonException.cs" />
+    <Compile Include="Assets\TOAST\Kit\Common\ThirdParty\LitJson\JsonMapper.cs" />
+    <Compile Include="Assets\TOAST\Kit\Common\ThirdParty\LitJson\JsonMockWrapper.cs" />
+    <Compile Include="Assets\TOAST\Kit\Common\ThirdParty\LitJson\JsonReader.cs" />
+    <Compile Include="Assets\TOAST\Kit\Common\ThirdParty\LitJson\JsonWriter.cs" />
+    <Compile Include="Assets\TOAST\Kit\Common\ThirdParty\LitJson\Lexer.cs" />
+    <Compile Include="Assets\TOAST\Kit\Common\ThirdParty\LitJson\Netstandard15Polyfill.cs" />
+    <Compile Include="Assets\TOAST\Kit\Common\ThirdParty\LitJson\ParserToken.cs" />
+    <Compile Include="Assets\TOAST\Kit\Common\ToastKitCommon.cs" />
+    <Compile Include="Assets\TOAST\Kit\Common\Util\EditorCoroutine.cs" />
+    <Compile Include="Assets\TOAST\Kit\Common\Util\GameObjectContainer.cs" />
+    <Compile Include="Assets\TOAST\Kit\Common\Util\Miscellaneous.cs" />
+    <Compile Include="Assets\TOAST\Kit\Common\Util\ToastKitFileUtil.cs" />
+    <Compile Include="Assets\TOAST\Kit\Common\Util\ToastKitJsonMapper.cs" />
+    <Compile Include="Assets\TOAST\Kit\Common\Util\ToastKitPathUtil.cs" />
+    <Compile Include="Assets\TOAST\Kit\Common\Util\XmlHelper.cs" />
+    <Compile Include="Assets\TypeToChat.cs" />
+    <Compile Include="Assets\UI Mobile Menu Game\Scripts\ClickListFirends.cs" />
+    <Compile Include="Assets\UI Mobile Menu Game\Scripts\ClickSoundButton.cs" />
+    <Compile Include="Assets\UI Mobile Menu Game\Scripts\ForceScroll.cs" />
+    <Compile Include="Assets\UI Mobile Menu Game\Scripts\GenerateClouds.cs" />
+    <Compile Include="Assets\UI Mobile Menu Game\Scripts\GenerateObjects.cs" />
+    <Compile Include="Assets\UI Mobile Menu Game\Scripts\InitCards.cs" />
+    <Compile Include="Assets\UI Mobile Menu Game\Scripts\InitMemberList.cs" />
+    <Compile Include="Assets\UI Mobile Menu Game\Scripts\InitObjects.cs" />
+    <Compile Include="Assets\UI Mobile Menu Game\Scripts\InitStats.cs" />
+    <Compile Include="Assets\UI Mobile Menu Game\Scripts\ListMembers.cs" />
+    <Compile Include="Assets\UI Mobile Menu Game\Scripts\moveCloud.cs" />
+    <Compile Include="Assets\UI Mobile Menu Game\Scripts\ResetStats.cs" />
+    <Compile Include="Assets\UI Mobile Menu Game\Scripts\ToggleOptions.cs" />
+    <Compile Include="Assets\UI Mobile Menu Game\Scripts\UI.cs" />
+    <Compile Include="Assets\UI Mobile Menu Game\Scripts\VerifMailBox.cs" />
+    <Compile Include="Assets\Unity-Logs-Viewer\Reporter\MultiKeyDictionary.cs" />
+    <Compile Include="Assets\Unity-Logs-Viewer\Reporter\Reporter.cs" />
+    <Compile Include="Assets\Unity-Logs-Viewer\Reporter\ReporterGUI.cs" />
+    <Compile Include="Assets\Unity-Logs-Viewer\Reporter\ReporterMessageReceiver.cs" />
+    <Compile Include="Assets\Unity-Logs-Viewer\Reporter\Test\Rotate.cs" />
+    <Compile Include="Assets\Unity-Logs-Viewer\Reporter\Test\TestReporter.cs" />
+    <Compile Include="Assets\UpdateCoinsFrameValue.cs" />
+    <None Include="Assets\LOCAL_MODE\SocketIO\JSONObject\readme.txt" />
+    <None Include="Assets\LOCAL_MODE\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
+    <None Include="Assets\LOCAL_MODE\NGUI\Examples\Shaders\Unlit - Depth Cutout.shader" />
+    <None Include="Assets\LOCAL_MODE\NGUI\ReadMe - 2019.3.0.txt" />
+    <None Include="Assets\LOCAL_MODE\NGUI\Resources\Shaders\Unlit - Transparent Masked 1.shader" />
+    <None Include="Assets\LOCAL_MODE\NGUI\Resources\Shaders\Unlit - Text 2.shader" />
+    <None Include="Assets\LOCAL_MODE\GleyPlugins\Ads\Plugins\Android\GleyMobileAdsManifest.plugin\res\xml\network_security_config.xml" />
+    <None Include="Assets\JMO Assets\Cartoon FX\Shaders\CFX3 Multiply Color.shader" />
+    <None Include="Assets\LOCAL_MODE\NGUI\Resources\Shaders\Unlit - Transparent Masked 2.shader" />
+    <None Include="Assets\LOCAL_MODE\NGUIMaskedTexture\Unlit - Transparent FixableMask.shader" />
+    <None Include="Assets\LOCAL_MODE\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\LOCAL_MODE\NGUI\Examples\Models\Orc\Orc Skin.shader" />
+    <None Include="Assets\LOCAL_MODE\NGUI\Examples\Atlases\Wooden\Arimo20.txt" />
+    <None Include="Assets\LOCAL_MODE\NGUI\Examples\Atlases\Wooden\Arimo14.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\LOCAL_MODE\GleyPlugins\Ads\Plugins\Android\GleyMobileAdsManifest.plugin\AndroidManifest.xml" />
+    <None Include="Assets\JMO Assets\Cartoon FX\Shaders\CFXM_MobileParticleAdd_Alpha8.shader" />
+    <None Include="Assets\LOCAL_MODE\NGUI\Resources\Shaders\Unlit - Text 1.shader" />
+    <None Include="Assets\LOCAL_MODE\NGUI\Resources\Shaders\Unlit - Premultiplied Colored (TextureClip).shader" />
+    <None Include="Assets\LOCAL_MODE\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed) (TextureClip).shader" />
+    <None Include="Assets\LOCAL_MODE\NGUI\Resources\Shaders\Unlit - Transparent Colored 2.shader" />
+    <None Include="Assets\TOAST\Kit\Manager\Data\strings.xml" />
+    <None Include="Assets\Photon Unity Networking\link.xml" />
+    <None Include="Assets\LOCAL_MODE\NGUI\Examples\Shaders\Unlit - Masked Colored.shader" />
+    <None Include="Assets\LOCAL_MODE\NGUI\Resources\Shaders\Unlit - Premultiplied Colored 3.shader" />
+    <None Include="Assets\JMO Assets\Cartoon FX\CartoonFX Free.txt" />
+    <None Include="Assets\LOCAL_MODE\NGUI\Examples\Atlases\Wooden\Arimo18.txt" />
+    <None Include="Assets\LOCAL_MODE\GleyPlugins\Ads\Scripts\Version.txt" />
+    <None Include="Assets\LOCAL_MODE\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\LOCAL_MODE\NGUIMaskedTexture\Unlit - Transparent FixableMask 3.shader" />
+    <None Include="Assets\LOCAL_MODE\Spinner And Timer\Documentation\Readme.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\LOCAL_MODE\NGUI\Resources\Shaders\Unlit - Transparent Colored (TextureClip).shader" />
+    <None Include="Assets\LOCAL_MODE\NGUI\Examples\Atlases\SciFi\SciFi Font - Header.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-app-unity\maven-metadata.xml" />
+    <None Include="Assets\LOCAL_MODE\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\LOCAL_MODE\NGUIMaskedTexture\Unlit - Transparent FixableMask 1.shader" />
+    <None Include="Assets\LOCAL_MODE\NGUI\Resources\Shaders\Unlit - Transparent Masked 3.shader" />
+    <None Include="Assets\LOCAL_MODE\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\LOCAL_MODE\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\LOCAL_MODE\NGUI\Resources\Shaders\Unlit - Transparent Colored 1.shader" />
+    <None Include="Assets\VarietyParticles\Variety Particles Readme.txt" />
+    <None Include="Assets\LOCAL_MODE\NGUI\Examples\Atlases\Fantasy\Fantasy Font - Normal.txt" />
+    <None Include="Assets\LOCAL_MODE\NGUI\Resources\Shaders\Unlit - Transparent Colored 3.shader" />
+    <None Include="Assets\LOCAL_MODE\NGUI\Examples\Atlases\Refractive\Refractive Font - Normal.txt" />
+    <None Include="Assets\LOCAL_MODE\NGUI\Resources\Shaders\Unlit - Premultiplied Colored 2.shader" />
+    <None Include="Assets\LOCAL_MODE\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
+    <None Include="Assets\LOCAL_MODE\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\LOCAL_MODE\NGUIMaskedTexture\Unlit - Transparent FixableMask 2.shader" />
+    <None Include="Assets\CanvasParticleEmitter\Documentation\Canvas Particle Info.txt" />
+    <None Include="Assets\JMO Assets\Cartoon FX Easy Editor\CartoonFX Easy Editor Readme.txt" />
+    <None Include="Assets\LOCAL_MODE\NGUI\Resources\Shaders\Unlit - Text 3.shader" />
+    <None Include="Assets\LOCAL_MODE\NGUI\Resources\Shaders\Unlit - Transparent Packed 2.shader" />
+    <None Include="Assets\LOCAL_MODE\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\LOCAL_MODE\NGUI\Resources\Shaders\Unlit - Transparent Packed 1.shader" />
+    <None Include="Assets\LOCAL_MODE\NGUI\Resources\Shaders\Unlit - Premultiplied Colored 1.shader" />
+    <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+    <None Include="Assets\LOCAL_MODE\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\LOCAL_MODE\SocketIO\Readme.txt" />
+    <None Include="Assets\LOCAL_MODE\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\LOCAL_MODE\NGUI\Resources\Shaders\Unlit - Premultiplied Colored.shader" />
+    <None Include="Assets\CanvasParticleEmitter\Documentation\Shuriken Canvas Render.txt" />
+    <None Include="Assets\UI Mobile Menu Game\README.txt" />
+    <None Include="Assets\LOCAL_MODE\NGUI\Resources\Shaders\Unlit - Transparent Colored.shader" />
+    <None Include="Assets\LOCAL_MODE\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
+    <None Include="Assets\LOCAL_MODE\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\LOCAL_MODE\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\LOCAL_MODE\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets\LOCAL_MODE\NGUI\Resources\Shaders\Unlit - Text.shader" />
+    <None Include="Assets\LOCAL_MODE\NGUI\Resources\Shaders\Unlit - Transparent Packed.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\LOCAL_MODE\NGUI\Resources\Shaders\Unlit - Transparent Packed 3.shader" />
+    <None Include="Assets\LOCAL_MODE\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\FacebookSDK\link.xml" />
+    <None Include="Assets\Photon Unity Networking\readme.txt" />
+    <None Include="Assets\LOCAL_MODE\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\LOCAL_MODE\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\LOCAL_MODE\NGUI\Examples\Shaders\Unlit - Additive Colored.shader" />
+    <None Include="Assets\EpicVictoryEffects\Readme.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\LOCAL_MODE\NGUI\Resources\Shaders\Unlit - Transparent Masked.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
+    <None Include="Assets\LOCAL_MODE\NGUI\Examples\Atlases\Refractive\Refractive Font - Header.txt" />
+    <None Include="Assets\LOCAL_MODE\NGUI\Examples\Shaders\Refractive.shader" />
+    <None Include="Assets\LOCAL_MODE\NGUI\Resources\Shaders\Unlit - Text (TextureClip).shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\LOCAL_MODE\NGUI\Examples\Shaders\Unlit - Depth.shader" />
+    <None Include="Assets\LOCAL_MODE\NGUI\Examples\Atlases\SciFi\SciFi Font - Normal.txt" />
+    <None Include="Assets\LOCAL_MODE\GleyPlugins\Ads\AdOrderFile\AdOrder.txt" />
+    <None Include="Assets\CanvasParticleEmitter\Documentation\Canvas Particle changelog.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\LOCAL_MODE\NGUI\Examples\Models\Orc Armor\Orc Armor.shader" />
+    <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-auth-unity\maven-metadata.xml" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
+    <None Include="Assets\LOCAL_MODE\NGUI\Examples\Resources\Localization.txt" />
+    <None Include="Assets\Photon Unity Networking\changelog.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
+    <Reference Include="Unity.TextMeshPro.Editor">
+      <HintPath>D:/RecInfotech/Ludo Champions2[20_04_2021]ss/Ludo Champions2[20_04_2021]ss/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PackageManagerUI.Editor">
+      <HintPath>D:/RecInfotech/Ludo Champions2[20_04_2021]ss/Ludo Champions2[20_04_2021]ss/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.CollabProxy.Editor">
+      <HintPath>D:/RecInfotech/Ludo Champions2[20_04_2021]ss/Ludo Champions2[20_04_2021]ss/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>D:/RecInfotech/Ludo Champions2[20_04_2021]ss/Ludo Champions2[20_04_2021]ss/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.DataPrivacy">
+      <HintPath>D:/RecInfotech/Ludo Champions2[20_04_2021]ss/Ludo Champions2[20_04_2021]ss/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ARModule">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AccessibilityModule">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.BaselibModule">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.BaselibModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.FileSystemHttpModule">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.FileSystemHttpModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HotReloadModule">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.LocalizationModule">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ProfilerModule">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SharedInternalsModule">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpatialTrackingModule">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpatialTrackingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteShapeModule">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StreamingModule">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StyleSheetsModule">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SubstanceModule">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TLSModule">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreModule">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TimelineModule">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.TimelineModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UNETModule">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UmbraModule">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityTestProtocolModule">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VFXModule">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.XRModule">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Locator">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/Managed/Unity.Locator.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TestRunner">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Timeline">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GoogleAudioSpatializer">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpatialTracking">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook.Unity">
+      <HintPath>D:/RecInfotech/Ludo Champions2[20_04_2021]ss/Ludo Champions2[20_04_2021]ss/Assets/FacebookSDK/Plugins/Facebook.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook.Unity.Gameroom">
+      <HintPath>D:/RecInfotech/Ludo Champions2[20_04_2021]ss/Ludo Champions2[20_04_2021]ss/Assets/FacebookSDK/Plugins/Gameroom/Facebook.Unity.Gameroom.dll</HintPath>
+    </Reference>
+    <Reference Include="FacebookNamedPipeClient">
+      <HintPath>D:/RecInfotech/Ludo Champions2[20_04_2021]ss/Ludo Champions2[20_04_2021]ss/Assets/FacebookSDK/Plugins/Gameroom/FacebookNamedPipeClient.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook.Unity.Settings">
+      <HintPath>D:/RecInfotech/Ludo Champions2[20_04_2021]ss/Ludo Champions2[20_04_2021]ss/Assets/FacebookSDK/Plugins/Settings/Facebook.Unity.Settings.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.App">
+      <HintPath>D:/RecInfotech/Ludo Champions2[20_04_2021]ss/Ludo Champions2[20_04_2021]ss/Assets/Firebase/Plugins/Firebase.App.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.Auth">
+      <HintPath>D:/RecInfotech/Ludo Champions2[20_04_2021]ss/Ludo Champions2[20_04_2021]ss/Assets/Firebase/Plugins/Firebase.Auth.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.Platform">
+      <HintPath>D:/RecInfotech/Ludo Champions2[20_04_2021]ss/Ludo Champions2[20_04_2021]ss/Assets/Firebase/Plugins/Firebase.Platform.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.TaskExtension">
+      <HintPath>D:/RecInfotech/Ludo Champions2[20_04_2021]ss/Ludo Champions2[20_04_2021]ss/Assets/Firebase/Plugins/Firebase.TaskExtension.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.MiniJson">
+      <HintPath>D:/RecInfotech/Ludo Champions2[20_04_2021]ss/Ludo Champions2[20_04_2021]ss/Assets/Firebase/Plugins/Google.MiniJson.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Compat">
+      <HintPath>D:/RecInfotech/Ludo Champions2[20_04_2021]ss/Ludo Champions2[20_04_2021]ss/Assets/Parse/Plugins/dotNet45/Unity.Compat.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Tasks">
+      <HintPath>D:/RecInfotech/Ludo Champions2[20_04_2021]ss/Ludo Champions2[20_04_2021]ss/Assets/Parse/Plugins/dotNet45/Unity.Tasks.dll</HintPath>
+    </Reference>
+    <Reference Include="Photon3Unity3D">
+      <HintPath>D:/RecInfotech/Ludo Champions2[20_04_2021]ss/Ludo Champions2[20_04_2021]ss/Assets/Plugins/Photon3Unity3D.dll</HintPath>
+    </Reference>
+    <Reference Include="WP8Native">
+      <HintPath>D:/RecInfotech/Ludo Champions2[20_04_2021]ss/Ludo Champions2[20_04_2021]ss/Assets/Plugins/WP8Native.dll</HintPath>
+    </Reference>
+    <Reference Include="WP8PopUps">
+      <HintPath>D:/RecInfotech/Ludo Champions2[20_04_2021]ss/Ludo Champions2[20_04_2021]ss/Assets/Plugins/WP8PopUps.dll</HintPath>
+    </Reference>
+    <Reference Include="WSANative">
+      <HintPath>D:/RecInfotech/Ludo Champions2[20_04_2021]ss/Ludo Champions2[20_04_2021]ss/Assets/Plugins/WSANative.dll</HintPath>
+    </Reference>
+    <Reference Include="UDP">
+      <HintPath>D:/RecInfotech/Ludo Champions2[20_04_2021]ss/Ludo Champions2[20_04_2021]ss/Assets/Plugins/UDP/UDP.dll</HintPath>
+    </Reference>
+    <Reference Include="ChannelPurchase">
+      <HintPath>D:/RecInfotech/Ludo Champions2[20_04_2021]ss/Ludo Champions2[20_04_2021]ss/Assets/Plugins/UnityChannel/ChannelPurchase.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityStore">
+      <HintPath>D:/RecInfotech/Ludo Champions2[20_04_2021]ss/Ludo Champions2[20_04_2021]ss/Assets/Plugins/UnityChannel/UnityStore.dll</HintPath>
+    </Reference>
+    <Reference Include="Editor">
+      <HintPath>D:/RecInfotech/Ludo Champions2[20_04_2021]ss/Ludo Champions2[20_04_2021]ss/Assets/Plugins/UnityPurchasing/Bin/Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Purchasing.Common">
+      <HintPath>D:/RecInfotech/Ludo Champions2[20_04_2021]ss/Ludo Champions2[20_04_2021]ss/Assets/Plugins/UnityPurchasing/Bin/Purchasing.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Stores">
+      <HintPath>D:/RecInfotech/Ludo Champions2[20_04_2021]ss/Ludo Champions2[20_04_2021]ss/Assets/Plugins/UnityPurchasing/Bin/Stores.dll</HintPath>
+    </Reference>
+    <Reference Include="Apple">
+      <HintPath>D:/RecInfotech/Ludo Champions2[20_04_2021]ss/Ludo Champions2[20_04_2021]ss/Assets/Plugins/UnityPurchasing/Bin/Apple/Apple.dll</HintPath>
+    </Reference>
+    <Reference Include="FacebookStore">
+      <HintPath>D:/RecInfotech/Ludo Champions2[20_04_2021]ss/Ludo Champions2[20_04_2021]ss/Assets/Plugins/UnityPurchasing/Bin/Facebook/FacebookStore.dll</HintPath>
+    </Reference>
+    <Reference Include="Security">
+      <HintPath>D:/RecInfotech/Ludo Champions2[20_04_2021]ss/Ludo Champions2[20_04_2021]ss/Assets/Plugins/UnityPurchasing/Bin/Security/live/Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Tizen">
+      <HintPath>D:/RecInfotech/Ludo Champions2[20_04_2021]ss/Ludo Champions2[20_04_2021]ss/Assets/Plugins/UnityPurchasing/Bin/Tizen/Tizen.dll</HintPath>
+    </Reference>
+    <Reference Include="winrt">
+      <HintPath>D:/RecInfotech/Ludo Champions2[20_04_2021]ss/Ludo Champions2[20_04_2021]ss/Assets/Plugins/UnityPurchasing/winrt/winrt.dll</HintPath>
+    </Reference>
+    <Reference Include="websocket-sharp">
+      <HintPath>D:/RecInfotech/Ludo Champions2[20_04_2021]ss/Ludo Champions2[20_04_2021]ss/Assets/Plugins/WebSocket/websocket-sharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.StandardEvents">
+      <HintPath>D:/RecInfotech/Ludo Champions2[20_04_2021]ss/Ludo Champions2[20_04_2021]ss/Library/PackageCache/com.unity.analytics@3.2.3/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing">
+      <HintPath>D:/RecInfotech/Ludo Champions2[20_04_2021]ss/Ludo Champions2[20_04_2021]ss/Library/PackageCache/com.unity.purchasing@2.0.3/UnityEngine.Purchasing.dll</HintPath>
+    </Reference>
+    <Reference Include="netstandard">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Primitives">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/Microsoft.Win32.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.AppContext">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.AppContext.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Concurrent">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.Concurrent.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.NonGeneric">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.NonGeneric.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Specialized">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.Specialized.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.EventBasedAsync">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.EventBasedAsync.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Primitives">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.TypeConverter">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.TypeConverter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Console">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Console.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.Common">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Data.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Contracts">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Contracts.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Debug">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Debug.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.FileVersionInfo">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.FileVersionInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Process">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Process.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.StackTrace">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.StackTrace.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.TextWriterTraceListener">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tools">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Tools.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.TraceSource">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.TraceSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tracing">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Tracing.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing.Primitives">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Drawing.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Dynamic.Runtime">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Dynamic.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization.Calendars">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.Calendars.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization.Extensions">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Compression.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.ZipFile">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Compression.ZipFile.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.DriveInfo">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.DriveInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Primitives">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Watcher">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.Watcher.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.IsolatedStorage">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.IsolatedStorage.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.MemoryMappedFiles">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.MemoryMappedFiles.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Pipes">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Pipes.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.UnmanagedMemoryStream">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.UnmanagedMemoryStream.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Expressions">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Expressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Parallel">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Parallel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Queryable">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Queryable.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NameResolution">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.NameResolution.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NetworkInformation">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.NetworkInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Ping">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Ping.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Primitives">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Requests">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Requests.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Security">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Sockets">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Sockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebHeaderCollection">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebHeaderCollection.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets.Client">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebSockets.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebSockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ObjectModel">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Extensions">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Primitives">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.Reader">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.Reader.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.ResourceManager">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.ResourceManager.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.Writer">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.Writer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.VisualC">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.CompilerServices.VisualC.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Extensions">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Handles">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Handles.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.InteropServices.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Numerics">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Formatters">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Formatters.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Json">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Primitives">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Xml">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Claims">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Claims.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Algorithms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Csp">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Csp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.X509Certificates.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Principal">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Principal.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.SecureString">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.SecureString.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding.Extensions">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.Encoding.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.RegularExpressions">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.RegularExpressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Overlapped">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Overlapped.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Tasks.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Parallel">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Tasks.Parallel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Thread">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Thread.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.ThreadPool">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.ThreadPool.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Timer">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Timer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.ReaderWriter">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.ReaderWriter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XDocument">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XmlDocument">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XmlDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XmlSerializer">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XmlSerializer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XPath">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XPath.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XPath.XDocument">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XPath.XDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics.Vectors">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+    </Reference>
+    <Reference Include="mscorlib">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.ComponentModel.Composition.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.FileSystem">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.IO.Compression.FileSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Runtime.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Web">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.ServiceModel.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Transactions">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Transactions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Serialization">
+      <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{9EB80A87-4A88-8E7B-4630-803FFF4B9954}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.PlayerPrefsEditor.Editor.csproj">
+      <Project>{48ADCAA3-C3D3-8EEC-E40B-A351CD4C5720}</Project>
+      <Name>Unity.PlayerPrefsEditor.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.PlayerPrefsEditor.EditorResources.csproj">
+      <Project>{AF56452F-EFD3-E833-02EA-E9E7487D0071}</Project>
+      <Name>Unity.PlayerPrefsEditor.EditorResources</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.PlayerPrefsEditor.Samples.SampleScene.csproj">
+      <Project>{BE848958-8E66-74FA-573C-4D05C3A3E463}</Project>
+      <Name>Unity.PlayerPrefsEditor.Samples.SampleScene</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,21 @@
+﻿<Properties StartupConfiguration="{E4684783-1AEE-41DB-2491-D1F91DB4B40C}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Ludo Masters/Scripts/LudoPawnController.cs">
+    <Files>
+      <File FileName="../../collaborated/Ludo Vegas/Assets/Scripts/MainmenuManager.cs" Line="152" Column="29" />
+      <File FileName="../../collaborated/Ludo Vegas/Assets/Scripts/Login.cs" />
+      <File FileName="Assets/Ludo Masters/Scripts/GameDiceController.cs" Line="54" Column="44" />
+      <File FileName="Assets/Ludo Masters/Scripts/LudoGameController.cs" Line="40" Column="17" />
+      <File FileName="Assets/Ludo Masters/Scripts/GameGUIController.cs" Line="561" Column="18" />
+      <File FileName="Assets/Ludo Masters/Scripts/DiceController2.cs" Line="18" Column="65" />
+      <File FileName="Assets/Ludo Masters/Scripts/LudoPawnController.cs" Line="407" Column="13" />
+      <File FileName="Assets/Plugins/Pixelplacement/iTween/iTween.cs" Line="4064" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="44cb3b4b-4b4c-4756-b86e-1e8145480b5b" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
