@@ -22,8 +22,6 @@ public class UserChallengeManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI EntryFee;
     [SerializeField] private TextMeshProUGUI WinAmount;
 
-    public List<ChallengeModel> challengeModels = new List<ChallengeModel>();
-    public List<GameObject> challengeButtons = new List<GameObject>();
     public Dictionary<GameObject, ChallengeModel> challengeDict = new Dictionary<GameObject, ChallengeModel>();
 
     public GameObject UserChallengeDetailScreen => userChallengeInfoScreen;
@@ -73,8 +71,6 @@ public class UserChallengeManager : MonoBehaviour
             {
                 var newChallenge = Instantiate(userChallengeButtonPrefab, userChallengeButtonParent.transform);
                 challengeDict.Add(newChallenge, new ChallengeModel() { chalange_id = item.Value["chalange_id"], chalange_name = item.Value["chalange_name"], username = item.Value["username"], user_id = item.Value["user_id"] });
-                //challengeButtons.Add(newChallenge);
-                //challengeModels.Add(new ChallengeModel() { chalange_id = item.Value["chalange_id"], chalange_name = item.Value["chalange_name"], username = item.Value["username"], user_id = item.Value["user_id"] }); ;
 
                 var requestHandler = newChallenge.GetComponent<ChallengeRequestHandler>();
                 requestHandler.ChallengeName.text = item.Value["chalange_name"].ToString();
