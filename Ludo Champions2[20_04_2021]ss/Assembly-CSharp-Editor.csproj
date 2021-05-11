@@ -245,19 +245,19 @@
     <None Include="Assets\ExternalDependencyManager\Editor\external-dependency-manager_version-1.2.164_manifest.txt" />
     <None Include="Assets\KunaiEditor\Editor\Readme.txt" />
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>D:/RecInfotech/Ludo Champions2[20_04_2021]ss/Ludo Champions2[20_04_2021]ss/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>D:/RecInfotech/LudoWala/Ludo Champions2[20_04_2021]ss/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>D:/RecInfotech/Ludo Champions2[20_04_2021]ss/Ludo Champions2[20_04_2021]ss/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>D:/RecInfotech/LudoWala/Ludo Champions2[20_04_2021]ss/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>D:/RecInfotech/Ludo Champions2[20_04_2021]ss/Ludo Champions2[20_04_2021]ss/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>D:/RecInfotech/LudoWala/Ludo Champions2[20_04_2021]ss/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>D:/RecInfotech/Ludo Champions2[20_04_2021]ss/Ludo Champions2[20_04_2021]ss/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>D:/RecInfotech/LudoWala/Ludo Champions2[20_04_2021]ss/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>D:/RecInfotech/Ludo Champions2[20_04_2021]ss/Ludo Champions2[20_04_2021]ss/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>D:/RecInfotech/LudoWala/Ludo Champions2[20_04_2021]ss/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -494,130 +494,130 @@
       <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="Google.IOSResolver_v1.2.164">
-      <HintPath>D:/RecInfotech/Ludo Champions2[20_04_2021]ss/Ludo Champions2[20_04_2021]ss/Assets/ExternalDependencyManager/Editor/Google.IOSResolver_v1.2.164.dll</HintPath>
+      <HintPath>D:/RecInfotech/LudoWala/Ludo Champions2[20_04_2021]ss/Assets/ExternalDependencyManager/Editor/Google.IOSResolver_v1.2.164.dll</HintPath>
     </Reference>
     <Reference Include="Google.JarResolver_v1.2.164">
-      <HintPath>D:/RecInfotech/Ludo Champions2[20_04_2021]ss/Ludo Champions2[20_04_2021]ss/Assets/ExternalDependencyManager/Editor/Google.JarResolver_v1.2.164.dll</HintPath>
+      <HintPath>D:/RecInfotech/LudoWala/Ludo Champions2[20_04_2021]ss/Assets/ExternalDependencyManager/Editor/Google.JarResolver_v1.2.164.dll</HintPath>
     </Reference>
     <Reference Include="Google.PackageManagerResolver_v1.2.164">
-      <HintPath>D:/RecInfotech/Ludo Champions2[20_04_2021]ss/Ludo Champions2[20_04_2021]ss/Assets/ExternalDependencyManager/Editor/Google.PackageManagerResolver_v1.2.164.dll</HintPath>
+      <HintPath>D:/RecInfotech/LudoWala/Ludo Champions2[20_04_2021]ss/Assets/ExternalDependencyManager/Editor/Google.PackageManagerResolver_v1.2.164.dll</HintPath>
     </Reference>
     <Reference Include="Google.VersionHandler">
-      <HintPath>D:/RecInfotech/Ludo Champions2[20_04_2021]ss/Ludo Champions2[20_04_2021]ss/Assets/ExternalDependencyManager/Editor/Google.VersionHandler.dll</HintPath>
+      <HintPath>D:/RecInfotech/LudoWala/Ludo Champions2[20_04_2021]ss/Assets/ExternalDependencyManager/Editor/Google.VersionHandler.dll</HintPath>
     </Reference>
     <Reference Include="Google.VersionHandlerImpl_v1.2.164">
-      <HintPath>D:/RecInfotech/Ludo Champions2[20_04_2021]ss/Ludo Champions2[20_04_2021]ss/Assets/ExternalDependencyManager/Editor/Google.VersionHandlerImpl_v1.2.164.dll</HintPath>
+      <HintPath>D:/RecInfotech/LudoWala/Ludo Champions2[20_04_2021]ss/Assets/ExternalDependencyManager/Editor/Google.VersionHandlerImpl_v1.2.164.dll</HintPath>
     </Reference>
     <Reference Include="Facebook.Unity">
-      <HintPath>D:/RecInfotech/Ludo Champions2[20_04_2021]ss/Ludo Champions2[20_04_2021]ss/Assets/FacebookSDK/Plugins/Facebook.Unity.dll</HintPath>
+      <HintPath>D:/RecInfotech/LudoWala/Ludo Champions2[20_04_2021]ss/Assets/FacebookSDK/Plugins/Facebook.Unity.dll</HintPath>
     </Reference>
     <Reference Include="Facebook.Unity.Editor">
-      <HintPath>D:/RecInfotech/Ludo Champions2[20_04_2021]ss/Ludo Champions2[20_04_2021]ss/Assets/FacebookSDK/Plugins/Editor/Facebook.Unity.Editor.dll</HintPath>
+      <HintPath>D:/RecInfotech/LudoWala/Ludo Champions2[20_04_2021]ss/Assets/FacebookSDK/Plugins/Editor/Facebook.Unity.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Facebook.Unity.Gameroom">
-      <HintPath>D:/RecInfotech/Ludo Champions2[20_04_2021]ss/Ludo Champions2[20_04_2021]ss/Assets/FacebookSDK/Plugins/Gameroom/Facebook.Unity.Gameroom.dll</HintPath>
+      <HintPath>D:/RecInfotech/LudoWala/Ludo Champions2[20_04_2021]ss/Assets/FacebookSDK/Plugins/Gameroom/Facebook.Unity.Gameroom.dll</HintPath>
     </Reference>
     <Reference Include="FacebookNamedPipeClient">
-      <HintPath>D:/RecInfotech/Ludo Champions2[20_04_2021]ss/Ludo Champions2[20_04_2021]ss/Assets/FacebookSDK/Plugins/Gameroom/FacebookNamedPipeClient.dll</HintPath>
+      <HintPath>D:/RecInfotech/LudoWala/Ludo Champions2[20_04_2021]ss/Assets/FacebookSDK/Plugins/Gameroom/FacebookNamedPipeClient.dll</HintPath>
     </Reference>
     <Reference Include="Facebook.Unity.Settings">
-      <HintPath>D:/RecInfotech/Ludo Champions2[20_04_2021]ss/Ludo Champions2[20_04_2021]ss/Assets/FacebookSDK/Plugins/Settings/Facebook.Unity.Settings.dll</HintPath>
+      <HintPath>D:/RecInfotech/LudoWala/Ludo Champions2[20_04_2021]ss/Assets/FacebookSDK/Plugins/Settings/Facebook.Unity.Settings.dll</HintPath>
     </Reference>
     <Reference Include="Firebase.Editor">
-      <HintPath>D:/RecInfotech/Ludo Champions2[20_04_2021]ss/Ludo Champions2[20_04_2021]ss/Assets/Firebase/Editor/Firebase.Editor.dll</HintPath>
+      <HintPath>D:/RecInfotech/LudoWala/Ludo Champions2[20_04_2021]ss/Assets/Firebase/Editor/Firebase.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Firebase.App">
-      <HintPath>D:/RecInfotech/Ludo Champions2[20_04_2021]ss/Ludo Champions2[20_04_2021]ss/Assets/Firebase/Plugins/Firebase.App.dll</HintPath>
+      <HintPath>D:/RecInfotech/LudoWala/Ludo Champions2[20_04_2021]ss/Assets/Firebase/Plugins/Firebase.App.dll</HintPath>
     </Reference>
     <Reference Include="Firebase.Auth">
-      <HintPath>D:/RecInfotech/Ludo Champions2[20_04_2021]ss/Ludo Champions2[20_04_2021]ss/Assets/Firebase/Plugins/Firebase.Auth.dll</HintPath>
+      <HintPath>D:/RecInfotech/LudoWala/Ludo Champions2[20_04_2021]ss/Assets/Firebase/Plugins/Firebase.Auth.dll</HintPath>
     </Reference>
     <Reference Include="Firebase.Platform">
-      <HintPath>D:/RecInfotech/Ludo Champions2[20_04_2021]ss/Ludo Champions2[20_04_2021]ss/Assets/Firebase/Plugins/Firebase.Platform.dll</HintPath>
+      <HintPath>D:/RecInfotech/LudoWala/Ludo Champions2[20_04_2021]ss/Assets/Firebase/Plugins/Firebase.Platform.dll</HintPath>
     </Reference>
     <Reference Include="Firebase.TaskExtension">
-      <HintPath>D:/RecInfotech/Ludo Champions2[20_04_2021]ss/Ludo Champions2[20_04_2021]ss/Assets/Firebase/Plugins/Firebase.TaskExtension.dll</HintPath>
+      <HintPath>D:/RecInfotech/LudoWala/Ludo Champions2[20_04_2021]ss/Assets/Firebase/Plugins/Firebase.TaskExtension.dll</HintPath>
     </Reference>
     <Reference Include="Google.MiniJson">
-      <HintPath>D:/RecInfotech/Ludo Champions2[20_04_2021]ss/Ludo Champions2[20_04_2021]ss/Assets/Firebase/Plugins/Google.MiniJson.dll</HintPath>
+      <HintPath>D:/RecInfotech/LudoWala/Ludo Champions2[20_04_2021]ss/Assets/Firebase/Plugins/Google.MiniJson.dll</HintPath>
     </Reference>
     <Reference Include="JMOAssets_CartoonFXFreeWelcome">
-      <HintPath>D:/RecInfotech/Ludo Champions2[20_04_2021]ss/Ludo Champions2[20_04_2021]ss/Assets/JMO Assets/Editor/JMOAssets_CartoonFXFreeWelcome.dll</HintPath>
+      <HintPath>D:/RecInfotech/LudoWala/Ludo Champions2[20_04_2021]ss/Assets/JMO Assets/Editor/JMOAssets_CartoonFXFreeWelcome.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Compat">
-      <HintPath>D:/RecInfotech/Ludo Champions2[20_04_2021]ss/Ludo Champions2[20_04_2021]ss/Assets/Parse/Plugins/dotNet45/Unity.Compat.dll</HintPath>
+      <HintPath>D:/RecInfotech/LudoWala/Ludo Champions2[20_04_2021]ss/Assets/Parse/Plugins/dotNet45/Unity.Compat.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Tasks">
-      <HintPath>D:/RecInfotech/Ludo Champions2[20_04_2021]ss/Ludo Champions2[20_04_2021]ss/Assets/Parse/Plugins/dotNet45/Unity.Tasks.dll</HintPath>
+      <HintPath>D:/RecInfotech/LudoWala/Ludo Champions2[20_04_2021]ss/Assets/Parse/Plugins/dotNet45/Unity.Tasks.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-      <HintPath>D:/RecInfotech/Ludo Champions2[20_04_2021]ss/Ludo Champions2[20_04_2021]ss/Assets/Photon Unity Networking/Editor/PhotonNetwork/Newtonsoft.Json.dll</HintPath>
+      <HintPath>D:/RecInfotech/LudoWala/Ludo Champions2[20_04_2021]ss/Assets/Photon Unity Networking/Editor/PhotonNetwork/Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Photon3Unity3D">
-      <HintPath>D:/RecInfotech/Ludo Champions2[20_04_2021]ss/Ludo Champions2[20_04_2021]ss/Assets/Plugins/Photon3Unity3D.dll</HintPath>
+      <HintPath>D:/RecInfotech/LudoWala/Ludo Champions2[20_04_2021]ss/Assets/Plugins/Photon3Unity3D.dll</HintPath>
     </Reference>
     <Reference Include="WP8Native">
-      <HintPath>D:/RecInfotech/Ludo Champions2[20_04_2021]ss/Ludo Champions2[20_04_2021]ss/Assets/Plugins/WP8Native.dll</HintPath>
+      <HintPath>D:/RecInfotech/LudoWala/Ludo Champions2[20_04_2021]ss/Assets/Plugins/WP8Native.dll</HintPath>
     </Reference>
     <Reference Include="WP8PopUps">
-      <HintPath>D:/RecInfotech/Ludo Champions2[20_04_2021]ss/Ludo Champions2[20_04_2021]ss/Assets/Plugins/WP8PopUps.dll</HintPath>
+      <HintPath>D:/RecInfotech/LudoWala/Ludo Champions2[20_04_2021]ss/Assets/Plugins/WP8PopUps.dll</HintPath>
     </Reference>
     <Reference Include="WSANative">
-      <HintPath>D:/RecInfotech/Ludo Champions2[20_04_2021]ss/Ludo Champions2[20_04_2021]ss/Assets/Plugins/WSANative.dll</HintPath>
+      <HintPath>D:/RecInfotech/LudoWala/Ludo Champions2[20_04_2021]ss/Assets/Plugins/WSANative.dll</HintPath>
     </Reference>
     <Reference Include="UDP">
-      <HintPath>D:/RecInfotech/Ludo Champions2[20_04_2021]ss/Ludo Champions2[20_04_2021]ss/Assets/Plugins/UDP/UDP.dll</HintPath>
+      <HintPath>D:/RecInfotech/LudoWala/Ludo Champions2[20_04_2021]ss/Assets/Plugins/UDP/UDP.dll</HintPath>
     </Reference>
     <Reference Include="ChannelPurchase">
-      <HintPath>D:/RecInfotech/Ludo Champions2[20_04_2021]ss/Ludo Champions2[20_04_2021]ss/Assets/Plugins/UnityChannel/ChannelPurchase.dll</HintPath>
+      <HintPath>D:/RecInfotech/LudoWala/Ludo Champions2[20_04_2021]ss/Assets/Plugins/UnityChannel/ChannelPurchase.dll</HintPath>
     </Reference>
     <Reference Include="UnityStore">
-      <HintPath>D:/RecInfotech/Ludo Champions2[20_04_2021]ss/Ludo Champions2[20_04_2021]ss/Assets/Plugins/UnityChannel/UnityStore.dll</HintPath>
+      <HintPath>D:/RecInfotech/LudoWala/Ludo Champions2[20_04_2021]ss/Assets/Plugins/UnityChannel/UnityStore.dll</HintPath>
     </Reference>
     <Reference Include="Editor">
-      <HintPath>D:/RecInfotech/Ludo Champions2[20_04_2021]ss/Ludo Champions2[20_04_2021]ss/Assets/Plugins/UnityPurchasing/Bin/Editor.dll</HintPath>
+      <HintPath>D:/RecInfotech/LudoWala/Ludo Champions2[20_04_2021]ss/Assets/Plugins/UnityPurchasing/Bin/Editor.dll</HintPath>
     </Reference>
     <Reference Include="Purchasing.Common">
-      <HintPath>D:/RecInfotech/Ludo Champions2[20_04_2021]ss/Ludo Champions2[20_04_2021]ss/Assets/Plugins/UnityPurchasing/Bin/Purchasing.Common.dll</HintPath>
+      <HintPath>D:/RecInfotech/LudoWala/Ludo Champions2[20_04_2021]ss/Assets/Plugins/UnityPurchasing/Bin/Purchasing.Common.dll</HintPath>
     </Reference>
     <Reference Include="Stores">
-      <HintPath>D:/RecInfotech/Ludo Champions2[20_04_2021]ss/Ludo Champions2[20_04_2021]ss/Assets/Plugins/UnityPurchasing/Bin/Stores.dll</HintPath>
+      <HintPath>D:/RecInfotech/LudoWala/Ludo Champions2[20_04_2021]ss/Assets/Plugins/UnityPurchasing/Bin/Stores.dll</HintPath>
     </Reference>
     <Reference Include="Apple">
-      <HintPath>D:/RecInfotech/Ludo Champions2[20_04_2021]ss/Ludo Champions2[20_04_2021]ss/Assets/Plugins/UnityPurchasing/Bin/Apple/Apple.dll</HintPath>
+      <HintPath>D:/RecInfotech/LudoWala/Ludo Champions2[20_04_2021]ss/Assets/Plugins/UnityPurchasing/Bin/Apple/Apple.dll</HintPath>
     </Reference>
     <Reference Include="FacebookStore">
-      <HintPath>D:/RecInfotech/Ludo Champions2[20_04_2021]ss/Ludo Champions2[20_04_2021]ss/Assets/Plugins/UnityPurchasing/Bin/Facebook/FacebookStore.dll</HintPath>
+      <HintPath>D:/RecInfotech/LudoWala/Ludo Champions2[20_04_2021]ss/Assets/Plugins/UnityPurchasing/Bin/Facebook/FacebookStore.dll</HintPath>
     </Reference>
     <Reference Include="Security">
-      <HintPath>D:/RecInfotech/Ludo Champions2[20_04_2021]ss/Ludo Champions2[20_04_2021]ss/Assets/Plugins/UnityPurchasing/Bin/Security/live/Security.dll</HintPath>
+      <HintPath>D:/RecInfotech/LudoWala/Ludo Champions2[20_04_2021]ss/Assets/Plugins/UnityPurchasing/Bin/Security/live/Security.dll</HintPath>
     </Reference>
     <Reference Include="Tizen">
-      <HintPath>D:/RecInfotech/Ludo Champions2[20_04_2021]ss/Ludo Champions2[20_04_2021]ss/Assets/Plugins/UnityPurchasing/Bin/Tizen/Tizen.dll</HintPath>
+      <HintPath>D:/RecInfotech/LudoWala/Ludo Champions2[20_04_2021]ss/Assets/Plugins/UnityPurchasing/Bin/Tizen/Tizen.dll</HintPath>
     </Reference>
     <Reference Include="winrt">
-      <HintPath>D:/RecInfotech/Ludo Champions2[20_04_2021]ss/Ludo Champions2[20_04_2021]ss/Assets/Plugins/UnityPurchasing/winrt/winrt.dll</HintPath>
+      <HintPath>D:/RecInfotech/LudoWala/Ludo Champions2[20_04_2021]ss/Assets/Plugins/UnityPurchasing/winrt/winrt.dll</HintPath>
     </Reference>
     <Reference Include="websocket-sharp">
-      <HintPath>D:/RecInfotech/Ludo Champions2[20_04_2021]ss/Ludo Champions2[20_04_2021]ss/Assets/Plugins/WebSocket/websocket-sharp.dll</HintPath>
+      <HintPath>D:/RecInfotech/LudoWala/Ludo Champions2[20_04_2021]ss/Assets/Plugins/WebSocket/websocket-sharp.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Advertisements">
-      <HintPath>D:/RecInfotech/Ludo Champions2[20_04_2021]ss/Ludo Champions2[20_04_2021]ss/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
+      <HintPath>D:/RecInfotech/LudoWala/Ludo Champions2[20_04_2021]ss/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>D:/RecInfotech/Ludo Champions2[20_04_2021]ss/Ludo Champions2[20_04_2021]ss/Library/PackageCache/com.unity.analytics@3.2.3/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>D:/RecInfotech/LudoWala/Ludo Champions2[20_04_2021]ss/Library/PackageCache/com.unity.analytics@3.2.3/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>D:/RecInfotech/Ludo Champions2[20_04_2021]ss/Ludo Champions2[20_04_2021]ss/Library/PackageCache/com.unity.analytics@3.2.3/Editor/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>D:/RecInfotech/LudoWala/Ludo Champions2[20_04_2021]ss/Library/PackageCache/com.unity.analytics@3.2.3/Editor/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>D:/RecInfotech/Ludo Champions2[20_04_2021]ss/Ludo Champions2[20_04_2021]ss/Library/PackageCache/com.unity.analytics@3.2.3/Editor/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>D:/RecInfotech/LudoWala/Ludo Champions2[20_04_2021]ss/Library/PackageCache/com.unity.analytics@3.2.3/Editor/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Purchasing">
-      <HintPath>D:/RecInfotech/Ludo Champions2[20_04_2021]ss/Ludo Champions2[20_04_2021]ss/Library/PackageCache/com.unity.purchasing@2.0.3/UnityEngine.Purchasing.dll</HintPath>
+      <HintPath>D:/RecInfotech/LudoWala/Ludo Champions2[20_04_2021]ss/Library/PackageCache/com.unity.purchasing@2.0.3/UnityEngine.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Purchasing">
-      <HintPath>D:/RecInfotech/Ludo Champions2[20_04_2021]ss/Ludo Champions2[20_04_2021]ss/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
+      <HintPath>D:/RecInfotech/LudoWala/Ludo Champions2[20_04_2021]ss/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>D:/Installation/UnityEditor/2018.4.20f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
