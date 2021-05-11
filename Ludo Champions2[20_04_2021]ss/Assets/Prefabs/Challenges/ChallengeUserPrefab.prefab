@@ -275,6 +275,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sendRequestButton: {fileID: 1945137423301291293}
+  challengeName: {fileID: 1945137424103605691}
 --- !u!1 &1945137423998531222
 GameObject:
   m_ObjectHideFlags: 0

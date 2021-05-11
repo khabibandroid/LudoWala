@@ -4,6 +4,8 @@ using System;
 using UnityEngine;
 using UnityEngine.Networking;
 using SimpleJSON;
+using TMPro;
+
 
 public class UserChallengeManager : MonoBehaviour
 {
@@ -17,9 +19,14 @@ public class UserChallengeManager : MonoBehaviour
     [Space]
     [Header("ChallengeInformation")]
     [SerializeField] private GameObject userChallengeInfoScreen;
-    public GameObject UserChallengeDetailScreen => userChallengeInfoScreen;
+    [SerializeField] private TextMeshProUGUI EntryFee;
+    [SerializeField] private TextMeshProUGUI WinAmount;
 
-    ChallengeUserModel model = new ChallengeUserModel();
+    public List<ChallengeModel> challengeModels = new List<ChallengeModel>();
+    public List<GameObject> challengeButtons = new List<GameObject>();
+    public Dictionary<GameObject, ChallengeModel> challengeDict = new Dictionary<GameObject, ChallengeModel>();
+
+    public GameObject UserChallengeDetailScreen => userChallengeInfoScreen;
 
     private void Awake()
     {
@@ -58,14 +65,31 @@ public class UserChallengeManager : MonoBehaviour
         else
         {
             var resp = uwr.downloadHandler.text;
-            //model = JsonUtility.FromJson<ChallengeUserModel>(resp);
-            var parsemodel = JSONArray.Parse(resp);
+            var parsemodel = JSON.Parse(resp);
             var jsonArray = parsemodel.AsArray;
-            Debug.Log($"ChallengeData: -----> {jsonArray.Count}");
+            //Debug.Log($"ChallengeData: -----> {jsonArray.Count}");
 
             foreach (var item in jsonArray)
             {
-                Debug.Log($"{item.Key} {item.Value}");
+                var newChallenge = Instantiate(userChallengeButtonPrefab, userChallengeButtonParent.transform);
+                challengeDict.Add(newChallenge, new ChallengeModel() { chalange_id = item.Value["chalange_id"], chalange_name = item.Value["chalange_name"], username = item.Value["username"], user_id = item.Value["user_id"] });
+                //challengeButtons.Add(newChallenge);
+                //challengeModels.Add(new ChallengeModel() { chalange_id = item.Value["chalange_id"], chalange_name = item.Value["chalange_name"], username = item.Value["username"], user_id = item.Value["user_id"] }); ;
+
+                var requestHandler = newChallenge.GetComponent<ChallengeRequestHandler>();
+                requestHandler.ChallengeName.text = item.Value["chalange_name"].ToString();
+                requestHandler.requestButton.onClick.AddListener(() =>
+                {
+                    UserChallengeDetailScreen.SetActive(true);
+
+                    if(challengeDict.TryGetValue(newChallenge, out ChallengeModel selectedChallenge))
+                    {
+                        EntryFee.text = selectedChallenge.chalange_id;
+                        WinAmount.text = selectedChallenge.user_id;
+                    }
+                });
+
+                Debug.Log($"{item.Value["chalange_id"]} {item.Value["chalange_name"]} {item.Value["user_id"]} {item.Value["username"]}");
             }
         }
     }
@@ -80,11 +104,3 @@ public class ChallengeModel
     public string user_id;
     public string username;
 }
-
-
-[Serializable]
-public class ChallengeUserModel
-{
-    public List<ChallengeModel> challengeModels;
-}
-
