@@ -5,12 +5,14 @@ using UnityEngine;
 using UnityEngine.Networking;
 using SimpleJSON;
 using TMPro;
+using UnityEngine.UI;
 
 
 public class UserChallengeManager : MonoBehaviour
 {
     public static UserChallengeManager Instance;
     [SerializeField] private string getChallengesAPI = "https://codash.tk/ludowala/Api/AllChalange";
+    [SerializeField] private string createChallengeAPI = "https://codash.tk/ludowala/Api/makeChalange";
 
     [Header("UserChallengeList")]
     [SerializeField] private GameObject userChallengeButtonPrefab;
@@ -19,12 +21,17 @@ public class UserChallengeManager : MonoBehaviour
     [Space]
     [Header("ChallengeInformation")]
     [SerializeField] private GameObject userChallengeInfoScreen;
+    public GameObject UserChallengeDetailScreen => userChallengeInfoScreen;
     [SerializeField] private TextMeshProUGUI EntryFee;
     [SerializeField] private TextMeshProUGUI WinAmount;
 
+    [Space]
+    [Header("CreateChallenge")]
+    [SerializeField] private TMP_InputField challengeName;
+    [SerializeField] private TMP_InputField bid_amount;
+
     public Dictionary<GameObject, ChallengeModel> challengeDict = new Dictionary<GameObject, ChallengeModel>();
 
-    public GameObject UserChallengeDetailScreen => userChallengeInfoScreen;
 
     private void Awake()
     {
@@ -33,6 +40,7 @@ public class UserChallengeManager : MonoBehaviour
             Instance = this;
         }
         StartCoroutine(ShowUserChallengeDetails());
+        StartCoroutine(CreateNewChallenge());
     }
 
     // Start is called before the first frame update
@@ -46,6 +54,45 @@ public class UserChallengeManager : MonoBehaviour
 
     }
 
+    private IEnumerator CreateNewChallenge()
+    {
+
+        WWWForm formData = new WWWForm();
+        formData.AddField("user_id", 556);
+        formData.AddField("chalange_name", "lkhjlkjer");
+        formData.AddField("bid_amount", 20);
+
+
+        UnityWebRequest uwr = UnityWebRequest.Post(createChallengeAPI, formData);
+        yield return uwr.SendWebRequest();
+
+        while (!uwr.isDone)
+        {
+            Debug.Log($"{uwr.downloadProgress}");
+        }
+
+        if (uwr.isHttpError || uwr.isNetworkError)
+        {
+            Debug.Log($"isError: {uwr.isNetworkError} {uwr.isHttpError}");
+        }
+        else
+        {
+            var resp = JsonUtility.FromJson<CreateChallenge>(uwr.downloadHandler.text);
+
+            if(resp.status == "failed")
+            {
+                Debug.Log($"failed: {resp.status}");
+            }
+            else
+            {
+                Debug.Log($"CreateChallengeResponse: {resp.status}");
+            }
+        }
+
+    }
+
+
+    #region Show Challenge Details
     private IEnumerator ShowUserChallengeDetails()
     {
         var uwr = UnityWebRequest.Get(getChallengesAPI);
@@ -93,6 +140,7 @@ public class UserChallengeManager : MonoBehaviour
             WinAmount.text = selectedChallenge.user_id;
         }
     }
+    #endregion
 }
 
 //Challenge API db model
@@ -103,4 +151,11 @@ public class ChallengeModel
     public string chalange_name;
     public string user_id;
     public string username;
+}
+
+[Serializable]
+public class CreateChallenge
+{
+    public string status;
+    public string mssg;
 }
