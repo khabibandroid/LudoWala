@@ -56,24 +56,22 @@ public class UserChallengeManager : MonoBehaviour
 
     private IEnumerator CreateNewChallenge()
     {
-
         WWWForm formData = new WWWForm();
-        formData.AddField("user_id", 556);
-        formData.AddField("chalange_name", "lkhjlkjer");
-        formData.AddField("bid_amount", 20);
-
+        formData.AddField("user_id", GameManager.Instance.UserID);
+        formData.AddField("chalange_name", challengeName.text);
+        formData.AddField("bid_amount", bid_amount.text);
 
         UnityWebRequest uwr = UnityWebRequest.Post(createChallengeAPI, formData);
         yield return uwr.SendWebRequest();
 
         while (!uwr.isDone)
         {
-            Debug.Log($"{uwr.downloadProgress}");
+            //Debug.Log($"{uwr.downloadProgress}");
         }
 
         if (uwr.isHttpError || uwr.isNetworkError)
         {
-            Debug.Log($"isError: {uwr.isNetworkError} {uwr.isHttpError}");
+            //Debug.Log($"isError: {uwr.isNetworkError} {uwr.isHttpError}");
         }
         else
         {
@@ -81,11 +79,11 @@ public class UserChallengeManager : MonoBehaviour
 
             if(resp.status == "failed")
             {
-                Debug.Log($"failed: {resp.status}");
+                //Debug.Log($"failed: {resp.status}");
             }
             else
             {
-                Debug.Log($"CreateChallengeResponse: {resp.status}");
+                //Debug.Log($"CreateChallengeResponse: {resp.status}");
             }
         }
 
