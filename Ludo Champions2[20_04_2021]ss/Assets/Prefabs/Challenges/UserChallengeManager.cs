@@ -27,8 +27,11 @@ public class UserChallengeManager : MonoBehaviour
 
     [Space]
     [Header("CreateChallenge")]
+    [SerializeField] private GameObject createChallengeScreen;
     [SerializeField] private TMP_InputField challengeName;
     [SerializeField] private TMP_InputField bid_amount;
+    [SerializeField] private Button OnClickAddButton;
+    [SerializeField] private Button AddChallangeButton;
 
     public Dictionary<GameObject, ChallengeModel> challengeDict = new Dictionary<GameObject, ChallengeModel>();
 
@@ -40,12 +43,12 @@ public class UserChallengeManager : MonoBehaviour
             Instance = this;
         }
         StartCoroutine(ShowUserChallengeDetails());
-        StartCoroutine(CreateNewChallenge());
     }
 
     // Start is called before the first frame update
     void Start()
     {
+
     }
 
     // Update is called once per frame
@@ -54,6 +57,8 @@ public class UserChallengeManager : MonoBehaviour
 
     }
 
+    public void OnClickAddChallengeButton() => StartCoroutine(CreateNewChallenge());
+
     private IEnumerator CreateNewChallenge()
     {
         WWWForm formData = new WWWForm();
@@ -61,17 +66,19 @@ public class UserChallengeManager : MonoBehaviour
         formData.AddField("chalange_name", challengeName.text);
         formData.AddField("bid_amount", bid_amount.text);
 
+        Debug.Log($"NewChallenge: {challengeName.text} BidAmount: {bid_amount.text}");
+
         UnityWebRequest uwr = UnityWebRequest.Post(createChallengeAPI, formData);
         yield return uwr.SendWebRequest();
 
         while (!uwr.isDone)
         {
-            //Debug.Log($"{uwr.downloadProgress}");
+            Debug.Log($"{uwr.downloadProgress}");
         }
 
         if (uwr.isHttpError || uwr.isNetworkError)
         {
-            //Debug.Log($"isError: {uwr.isNetworkError} {uwr.isHttpError}");
+            Debug.Log($"isError: {uwr.isNetworkError} {uwr.isHttpError}");
         }
         else
         {
@@ -79,14 +86,13 @@ public class UserChallengeManager : MonoBehaviour
 
             if(resp.status == "failed")
             {
-                //Debug.Log($"failed: {resp.status}");
+                Debug.Log($"failed: {resp.status}");
             }
             else
             {
-                //Debug.Log($"CreateChallengeResponse: {resp.status}");
+                Debug.Log($"CreateChallengeResponse: {resp.status}");
             }
         }
-
     }
 
 
@@ -119,7 +125,11 @@ public class UserChallengeManager : MonoBehaviour
         foreach (var item in jsonArray)
         {
             var newChallenge = Instantiate(userChallengeButtonPrefab, userChallengeButtonParent.transform);
-            challengeDict.Add(newChallenge, new ChallengeModel() { chalange_id = item.Value["chalange_id"], chalange_name = item.Value["chalange_name"], username = item.Value["username"], user_id = item.Value["user_id"] });
+
+            if (!challengeDict.ContainsKey(newChallenge))
+            {
+                challengeDict.Add(newChallenge, new ChallengeModel() { chalange_id = item.Value["chalange_id"], chalange_name = item.Value["chalange_name"], username = item.Value["username"], user_id = item.Value["user_id"] });
+            }
 
             var requestHandler = newChallenge.GetComponent<ChallengeRequestHandler>();
             requestHandler.ChallengeName.text = item.Value["chalange_name"].ToString();
