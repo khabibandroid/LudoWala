@@ -1186,7 +1186,6 @@ public class MainmenuManager : MonoBehaviour
 
     IEnumerator Balance()
     {
-
         print("((((((((((((((   " + GameManager.Instance.UserID);
 
         WWWForm form = new WWWForm();
@@ -1204,15 +1203,9 @@ public class MainmenuManager : MonoBehaviour
         }
         else
         {
-
-
-
             Debug.Log(www.downloadHandler.text);
 
             string output = www.downloadHandler.text;
-
-
-
 
             var N = JSON.Parse(output);
 

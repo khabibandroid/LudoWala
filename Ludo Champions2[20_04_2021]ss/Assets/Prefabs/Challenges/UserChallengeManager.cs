@@ -61,6 +61,15 @@ public class UserChallengeManager : MonoBehaviour
 
     private IEnumerator CreateNewChallenge()
     {
+        //Clear the existing fields
+
+        if(!string.IsNullOrEmpty(challengeName.text) || !string.IsNullOrEmpty(bid_amount.text))
+        {
+            challengeName.text = string.Empty;
+            bid_amount.text = string.Empty;
+        } 
+
+
         WWWForm formData = new WWWForm();
         formData.AddField("user_id", GameManager.Instance.UserID);
         formData.AddField("chalange_name", challengeName.text);
@@ -82,11 +91,11 @@ public class UserChallengeManager : MonoBehaviour
         }
         else
         {
-            var resp = JsonUtility.FromJson<CreateChallenge>(uwr.downloadHandler.text);
-
+            var resp = JsonUtility.FromJson<CreateChallengeModel>(uwr.downloadHandler.text);
+    
             if(resp.status == "failed")
             {
-                Debug.Log($"failed: {resp.status}");
+                Debug.LogError($"failed: {resp.mssg}");
             }
             else
             {
@@ -162,7 +171,7 @@ public class ChallengeModel
 }
 
 [Serializable]
-public class CreateChallenge
+public class CreateChallengeModel
 {
     public string status;
     public string mssg;
