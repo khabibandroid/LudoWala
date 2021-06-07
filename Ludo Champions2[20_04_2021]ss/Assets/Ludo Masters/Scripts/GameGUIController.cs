@@ -1655,19 +1655,10 @@ public class GameGUIController : PunBehaviour
         Debug.Log("custom debug: LeaveGame2, line 1653, gameGUI, called");
         if (!iFinished || finishWindow)
         {
-
-            PlayerPrefs.SetInt("GamesPlayed", PlayerPrefs.GetInt("GamesPlayed", 1) + 1);
-            SceneManager.LoadScene("MenuScene");
-            PhotonNetwork.BackgroundTimeout = StaticStrings.photonDisconnectTimeoutLong;
-
-            //GameManager.Instance.cueController.removeOnEventCall();
             PhotonNetwork.LeaveRoom();
+            EventCounter.LogOut = true;
 
-            GameManager.Instance.playfabManager.roomOwner = false;
-            GameManager.Instance.roomOwner = false;
-            GameManager.Instance.resetAllData();
-            position = "1";
-            StartCoroutine(result_insert1());
+            EventCounter.ResetALLData();
 
         }
         else

@@ -62,7 +62,9 @@ namespace offlineplay
     [Header("--- Setting Data")]
     public Setting settingData;
 
-    private void Awake()
+    public UserChallengeManager challengeManager;
+        
+        private void Awake()
     {
         if (Instance == null)
         {

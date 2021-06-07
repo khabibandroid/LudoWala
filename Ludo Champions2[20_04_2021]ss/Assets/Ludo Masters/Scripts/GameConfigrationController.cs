@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using AssemblyCSharp;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class GameConfigrationController : MonoBehaviour
@@ -13,6 +14,7 @@ public class GameConfigrationController : MonoBehaviour
     public GameObject PlusButton;
     public GameObject[] Toggles;
     private int currentBidIndex = 0;
+    public GameObject MMTPanel;
 
     private MyGameMode[] modes = new MyGameMode[] { MyGameMode.Classic, MyGameMode.Quick, MyGameMode.Master };
     public GameObject privateRoomJoin;
@@ -91,9 +93,27 @@ public class GameConfigrationController : MonoBehaviour
     {
         GameManager.Instance.JoinedByID = false;
     }
+    int matchMakingTimout = 30;
+    internal static bool matchfound = false;
+
+    public void StartMMT()
+    {
+        StartCoroutine("MMTimeout");
+    }
+
+   
+    public void LoadScene(int x)
+    {
+        SceneManager.LoadScene(x);
+    }
+
     public GameObject lowbalance;
     public void startGame()
     {
+        Debug.Log("########################## starting mmt");
+        //StartCoroutine("MMTimeout");
+        
+        EventCounter.LogOut = false;
         if (true && GameManager.Instance.select == true)
         {
             if (GameManager.Instance.type != MyGameType.Private)
@@ -125,6 +145,7 @@ public class GameConfigrationController : MonoBehaviour
 
             }
         }
+
 
         //else
         {

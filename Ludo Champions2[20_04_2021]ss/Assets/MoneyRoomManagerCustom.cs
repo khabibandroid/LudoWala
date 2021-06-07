@@ -44,6 +44,7 @@ public class MoneyRoomManagerCustom : MonoBehaviour
         if (v)
         {
             GameManager.Instance.payoutCoins = entry_fee;
+            Debug.Log(entry_fee);
         }
     }
 

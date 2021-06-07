@@ -23,7 +23,7 @@ public class Sharebutton : MonoBehaviour
 
     private void TakeSSAndShare()
     {
-        SunShineNativeShare.ShareText("https://ludowala.com/  Welcome to  Ludo Wala!\n Tap here ludo.atmsoftek.usludolive.apk to download the game", "referal");
+        SunShineNativeShare.ShareText("Sign up using my referral code " + GameManager.Instance.referal + " to get Rs.10 bonus. Msg & data rates may apply.https://ludowala.com/  Welcome to  Ludo Wala!\n", "referal");
         Debug.Log("share initiated");
 /*
 #if UNITY_ANDROID
@@ -45,7 +45,7 @@ public class Sharebutton : MonoBehaviour
     {
 
         var shareSubject = "";
-        var shareMessage = "https://ludowala.com/  Welcome to  Ludo Wala!";
+        var shareMessage = "sign up using my referral code " + GameManager.Instance.referal + " to get Rs.10 bonus. Msg & data rates may apply.https://ludowala.com/  Welcome to  Ludo Wala!";
         isProcessing = true;
 
         if(!Application.isEditor)

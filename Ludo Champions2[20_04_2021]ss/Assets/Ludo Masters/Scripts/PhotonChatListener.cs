@@ -5,6 +5,8 @@ using ExitGames.Client.Photon;
 using UnityEngine.UI;
 using Photon;
 using AssemblyCSharp;
+using UnityEngine.Networking;
+using SimpleJSON;
 
 public class PhotonChatListener : PunBehaviour
 {
@@ -26,6 +28,8 @@ public class PhotonChatListener : PunBehaviour
     public GameObject payoutCoinsText;
     bool leftRoom = false;
     bool Joined = false;
+
+   
     // Use this for initialization
     void Start()
     {
@@ -42,7 +46,7 @@ public class PhotonChatListener : PunBehaviour
             leftRoom = false;
             Joined = false;
 
-            payoutCoinsText.GetComponent<Text>().text = "" + GameManager.Instance.payoutCoins;
+            //payoutCoinsText.GetComponent<Text>().text = "" + GameManager.Instance.payoutCoins;
             rejectButton.SetActive(true);
             acceptButton.SetActive(true);
             okButton.SetActive(false);
@@ -79,40 +83,42 @@ public class PhotonChatListener : PunBehaviour
 
         if (a.Equals("accepted"))
         {
+            
 
             Debug.Log("Trying to join room: " + roomName);
-          //  if (GameManager.Instance.myPlayerData.GetCoins() >= GameManager.Instance.payoutCoins)
+            PhotonNetwork.JoinRoom(roomName);
+            GameManager.Instance.matchPlayerObject.GetComponent<SetMyData>().MatchPlayer();
+            //GameManager.Instance.dialog.SetActive(false);
+            GameManager.Instance.invitationDialog.SetActive(false);
+            /*  if (GameManager.Instance.myPlayerData.GetCoins() >= GameManager.Instance.payoutCoins)
             {
-                PhotonNetwork.JoinRoom(roomName);
-                if (GameManager.Instance.type != MyGameType.Private)
-                {
-                   // GameManager.Instance.facebookManager.startRandomGame();
-                }
-                else
-                {
-                    if (GameManager.Instance.JoinedByID)
-                    {
-                        Debug.Log("Joined by id!");
+                /*   if (GameManager.Instance.type != MyGameType.Private)
+                   {
+                      // GameManager.Instance.facebookManager.startRandomGame();
+                   }
+                   else
+                   {
+                       if (GameManager.Instance.JoinedByID)
+                       {
+                           Debug.Log("Joined by id!");
 
-                        GameManager.Instance.matchPlayerObject.GetComponent<SetMyData>().MatchPlayer();
-                    }
-                    else
-                    {
-                        Debug.Log("Joined and created");
-                       // GameManager.Instance.playfabManager.CreatePrivateRoom();
-                        GameManager.Instance.matchPlayerObject.GetComponent<SetMyData>().MatchPlayer();
-                    }
-
-                }
-            }
-           // else
-            {
-                GameManager.Instance.dialog.SetActive(true);
-            }
+                           GameManager.Instance.matchPlayerObject.GetComponent<SetMyData>().MatchPlayer();
+                       }
+                       else
+                       {
+                           Debug.Log("Joined and created");
+                          // GameManager.Instance.playfabManager.CreatePrivateRoom();
+                           GameManager.Instance.matchPlayerObject.GetComponent<SetMyData>().MatchPlayer();
+                       }
+                    } 
+            }  
+                // else
+                {
+                    //GameManager.Instance.dialog.SetActive(true);
+                }  */
+             
         }
-
     }
-
     public void hideDialog(string a)
     {
         Debug.Log("custom debug: hideDialog, line 118, PhotonChatList, called");
@@ -129,9 +135,7 @@ public class PhotonChatListener : PunBehaviour
         {
             JoinRoom(a);
         }
-
-
-        animator.Play("InvitationDialogHide");
+         animator.Play("InvitationDialogHide");
     }
 
 }

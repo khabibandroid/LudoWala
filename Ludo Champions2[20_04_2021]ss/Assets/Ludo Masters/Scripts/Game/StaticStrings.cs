@@ -13,8 +13,8 @@
         public static string notificationMessage = "Get your FREE fortune spin!";
 
         // Game configuration
-        public static float WaitTimeUntilStartWithBots = 1.0f;// 0.9f; // Time in seconds. If after that time new player doesnt join room game will start with bots
-        public static float WaitTimeUntilCloseRoom = 3.0f;
+        public static float WaitTimeUntilStartWithBots = -10.0f;// 0.9f; // Time in seconds. If after that time new player doesnt join room game will start with bots
+        public static float WaitTimeUntilCloseRoom = 3000.0f;
 
         // Services configration IDS
         

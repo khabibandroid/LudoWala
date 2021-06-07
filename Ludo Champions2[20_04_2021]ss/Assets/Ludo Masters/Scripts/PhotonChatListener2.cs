@@ -52,8 +52,8 @@ public class PhotonChatListener2 : MonoBehaviour
         roomName = room;
 
         text.text = id + " want to add you to Friends";
-        animator.Play("AddFriendAnimation");
-
+        // animator.Play("AddFriendAnimation");
+        animator.Play("InvitationDialogShow");
     }
 
 

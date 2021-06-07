@@ -2,110 +2,59 @@
 using System.Collections.Generic;
 using System;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.Networking;
 using SimpleJSON;
 using TMPro;
-using UnityEngine.UI;
 
 
 public class UserChallengeManager : MonoBehaviour
 {
-    public static UserChallengeManager Instance;
+    private static UserChallengeManager instance;
     [SerializeField] private string getChallengesAPI = "https://codash.tk/ludowala/Api/AllChalange";
-    [SerializeField] private string createChallengeAPI = "https://codash.tk/ludowala/Api/makeChalange";
-
     [Header("UserChallengeList")]
     [SerializeField] private GameObject userChallengeButtonPrefab;
     [SerializeField] private GameObject userChallengeButtonParent;
-
     [Space]
     [Header("ChallengeInformation")]
     [SerializeField] private GameObject userChallengeInfoScreen;
-    public GameObject UserChallengeDetailScreen => userChallengeInfoScreen;
     [SerializeField] private TextMeshProUGUI EntryFee;
     [SerializeField] private TextMeshProUGUI WinAmount;
-
-    [Space]
-    [Header("CreateChallenge")]
-    [SerializeField] private GameObject createChallengeScreen;
-    [SerializeField] private TMP_InputField challengeName;
-    [SerializeField] private TMP_InputField bid_amount;
-    [SerializeField] private Button OnClickAddButton;
-    [SerializeField] private Button AddChallangeButton;
-
+    [SerializeField] private GameObject userChallengeOfflineStatusScreen;
     public Dictionary<GameObject, ChallengeModel> challengeDict = new Dictionary<GameObject, ChallengeModel>();
+    public GameObject UserChallengeDetailScreen => userChallengeInfoScreen;
+    public GameObject UserChallengeCoinScreen;
+    public List<string> UserIdList = new List<string>();
+    private string currentUserID;
+    private string currentUserName;
 
 
     private void Awake()
     {
-        if (Instance == null)
+        if (instance == null)
         {
-            Instance = this;
+            instance = new UserChallengeManager();
         }
-        StartCoroutine(ShowUserChallengeDetails());
+
     }
+
+
 
     // Start is called before the first frame update
     void Start()
     {
-
     }
 
-    // Update is called once per frame
-    void Update()
+
+
+    public void OnChallengeClicked()
     {
+        // PhotonNetwork.FindFriends(new string[] { "553","Siva"});
+        StartCoroutine(ShowUserChallengeDetails());
 
     }
 
-    public void OnClickAddChallengeButton() => StartCoroutine(CreateNewChallenge());
 
-    private IEnumerator CreateNewChallenge()
-    {
-        //Clear the existing fields
-
-        if(!string.IsNullOrEmpty(challengeName.text) || !string.IsNullOrEmpty(bid_amount.text))
-        {
-            challengeName.text = string.Empty;
-            bid_amount.text = string.Empty;
-        } 
-
-
-        WWWForm formData = new WWWForm();
-        formData.AddField("user_id", GameManager.Instance.UserID);
-        formData.AddField("chalange_name", challengeName.text);
-        formData.AddField("bid_amount", bid_amount.text);
-
-        Debug.Log($"NewChallenge: {challengeName.text} BidAmount: {bid_amount.text}");
-
-        UnityWebRequest uwr = UnityWebRequest.Post(createChallengeAPI, formData);
-        yield return uwr.SendWebRequest();
-
-        while (!uwr.isDone)
-        {
-            Debug.Log($"{uwr.downloadProgress}");
-        }
-
-        if (uwr.isHttpError || uwr.isNetworkError)
-        {
-            Debug.Log($"isError: {uwr.isNetworkError} {uwr.isHttpError}");
-        }
-        else
-        {
-            var resp = JsonUtility.FromJson<CreateChallengeModel>(uwr.downloadHandler.text);
-    
-            if(resp.status == "failed")
-            {
-                Debug.LogError($"failed: {resp.mssg}");
-            }
-            else
-            {
-                Debug.Log($"CreateChallengeResponse: {resp.status}");
-            }
-        }
-    }
-
-
-    #region Show Challenge Details
     private IEnumerator ShowUserChallengeDetails()
     {
         var uwr = UnityWebRequest.Get(getChallengesAPI);
@@ -123,41 +72,93 @@ public class UserChallengeManager : MonoBehaviour
         else
         {
             var resp = uwr.downloadHandler.text;
+            //var resp = "[{ 'chalange_id':'9','chalange_name':'newName','user_id':'557','username':'Siva'},{ 'chalange_id':'8','chalange_name':'MyChallenge','user_id':'553','username':'Ash'}]";
             var parsemodel = JSON.Parse(resp);
-            var jsonArray = parsemodel.AsArray;
-            HandleJSONArray(jsonArray);
+            var jsonArray = parsemodel[0]["userData"].AsArray;
+            StartCoroutine(HandleJSONArray(jsonArray));
         }
     }
 
-    private void HandleJSONArray(JSONArray jsonArray)
+    IEnumerator HandleJSONArray(JSONArray jsonArray)
     {
+        UserIdList.Clear();
+        Debug.LogError("JSON ARRAY COUNT Before :" + jsonArray.Count + "  " + UserIdList.Count);
         foreach (var item in jsonArray)
         {
-            var newChallenge = Instantiate(userChallengeButtonPrefab, userChallengeButtonParent.transform);
+            UserIdList.Add(item.Value["user_id"]);
+        }
+        PhotonNetwork.FindFriends(UserIdList.ToArray());
 
-            if (!challengeDict.ContainsKey(newChallenge))
+        yield return new WaitForSeconds(2);
+
+        Debug.LogError("JSON ARRAY COUNT  After:" + jsonArray.Count + "  " + UserIdList.Count);
+
+        foreach (var item2 in jsonArray)
+        {
+            if (GameManager.Instance.playfabManager.IsUserIDOnline(item2.Value["user_id"], item2.Value["username"]))
             {
-                challengeDict.Add(newChallenge, new ChallengeModel() { chalange_id = item.Value["chalange_id"], chalange_name = item.Value["chalange_name"], username = item.Value["username"], user_id = item.Value["user_id"] });
-            }
+                var newChallenge = Instantiate(userChallengeButtonPrefab, userChallengeButtonParent.transform);
+                challengeDict.Add(newChallenge, new ChallengeModel() { username = item2.Value["username"], user_id = item2.Value["user_id"], email = item2.Value["email"] });
+                //chalange_id = item.Value["chalange_id"], bid_amount = item.Value["bid_amount"], 
 
-            var requestHandler = newChallenge.GetComponent<ChallengeRequestHandler>();
-            requestHandler.ChallengeName.text = item.Value["chalange_name"].ToString();
-            requestHandler.requestButton.onClick.AddListener(() => ShowChallengeInfo(newChallenge));
-            //Debug.Log($"{item.Value["chalange_id"]} {item.Value["chalange_name"]} {item.Value["user_id"]} {item.Value["username"]}");
+                var requestHandler = newChallenge.GetComponent<ChallengeRequestHandler>();
+                requestHandler.ChallengeName.text = item2.Value["username"] + "test...";
+                requestHandler.requestButton.onClick.AddListener(() => ShowChallengeInfo(newChallenge)); // newChallenge
+                                                                                                         //UserIdList.Add(item.Value["user_id"].ToString());
+                                                                                                         //Debug.Log($"{item.Value["chalange_id"]} {item.Value["chalange_name"]} {item.Value["user_id"]} {item.Value["username"]}");
+            }
         }
     }
 
-    private void ShowChallengeInfo(GameObject currentButton)
+    public void OnChallengePopupClosed()
+    {
+        if (userChallengeButtonParent.transform.childCount > 0)
+        {
+            userChallengeButtonParent.transform.DestroyChildren();
+        }
+    }
+
+    private void ShowChallengeInfo(GameObject currentButton)  // 
     {
         UserChallengeDetailScreen.SetActive(true);
 
         if (challengeDict.TryGetValue(currentButton, out ChallengeModel selectedChallenge))
         {
-            EntryFee.text = selectedChallenge.chalange_id;
-            WinAmount.text = selectedChallenge.user_id;
+            // EntryFee.text = selectedChallenge.bid_amount;
+            //WinAmount.text = selectedChallenge.bid_amount + 50;
+            // UserChallengeDetailScreen.GetComponentInChildren<Button>().onClick.AddListener(() => OnInnerSendRequestClicked(selectedChallenge.user_id));
+            //UserChallengeCoinScreen.GetComponentInChildren<Button>().onClick.AddListener(() => OnInnerSendRequestClicked(selectedChallenge.user_id));
+            currentUserID = selectedChallenge.user_id;
+            currentUserName = selectedChallenge.username;
+
+
+        }
+
+    }
+
+    public void OnInnerSendRequestClicked()
+    {
+        PhotonNetwork.FindFriends(new string[] { currentUserID });
+        Invoke("CheckUserIsOnline", 2f);
+    }
+
+    private void CheckUserIsOnline()
+    {
+        if (GameManager.Instance.playfabManager.IsUserIDOnline(currentUserID, currentUserName))
+        {
+            //Debug.Log("COMING TO INNER SEND REQUEST ...." + currentUserID);
+            GameManager.Instance.playfabManager.CreatePrivateRoom();
+            GameManager.Instance.isPrivateTable = true;
+            GameManager.Instance.matchPlayerObject.GetComponent<SetMyData>().MatchPlayer();
+            GameManager.Instance.playfabManager.challengeFriend(currentUserID, GameManager.Instance.payoutCoins + ";" + GameManager.Instance.privateRoomID);
+            // Debug.Log("COMING TO INNER SEND ROOM ID ...." + GameManager.Instance.privateRoomID+ " ROOM ID "+GameManager.Instance.RoomID);
+
+        }
+        else
+        {
+            userChallengeOfflineStatusScreen.SetActive(true);
         }
     }
-    #endregion
 }
 
 //Challenge API db model
@@ -165,14 +166,8 @@ public class UserChallengeManager : MonoBehaviour
 public class ChallengeModel
 {
     public string chalange_id;
-    public string chalange_name;
+    public string bid_amount;
     public string user_id;
     public string username;
-}
-
-[Serializable]
-public class CreateChallengeModel
-{
-    public string status;
-    public string mssg;
+    public string email;
 }
