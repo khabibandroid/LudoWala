@@ -869,7 +869,19 @@ public class PlayFabManager : Photon.PunBehaviour, IChatClientListener
         isInLobby = true;
     }
 
-    
+
+    public override void OnReceivedRoomListUpdate()
+    {
+        Debug.LogError($"RoomListUpdateAfterJoinedLobby");
+        RoomInfo[] roomList = PhotonNetwork.GetRoomList();
+        foreach (var item in roomList)
+        {
+            Debug.LogError($"RoomName: {item.Name}, PlayerCount: {item.PlayerCount}, CustomProperties {item.CustomProperties}");
+        }
+    }
+
+
+
 
     public void JoinRoomAndStartGame()
     {
