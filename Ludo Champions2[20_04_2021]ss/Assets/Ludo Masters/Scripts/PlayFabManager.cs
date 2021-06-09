@@ -325,10 +325,8 @@ public class PlayFabManager : Photon.PunBehaviour, IChatClientListener
         Debug.Log("WaitForNewPlayer");
         if (PhotonNetwork.isMasterClient && GameManager.Instance.type != MyGameType.Private)
         {
-
             if (GameManager.Instance.type == MyGameType.comp)
             {
-
                 Debug.Log("START INVOKE");
                 CancelInvoke("StartGameWithBots");
                 Invoke("StartGameWithBots", StaticStrings.WaitTimeUntilStartWithBots);
@@ -340,9 +338,7 @@ public class PlayFabManager : Photon.PunBehaviour, IChatClientListener
                 CancelInvoke("StartGameWithBots");
                 Invoke("StartGameWithBots", StaticStrings.WaitTimeUntilCloseRoom);
             }
-
         }
-        
     }
 
     public void StartGameWithBots()
@@ -559,12 +555,7 @@ public class PlayFabManager : Photon.PunBehaviour, IChatClientListener
     }
 
 
-    public void startScene()
-    {
-
-        StartCoroutine(loadSceneMenu());
-
-    }
+    public void startScene() => StartCoroutine(loadSceneMenu());
 
 
     private IEnumerator loadSceneMenu()
@@ -605,7 +596,6 @@ public class PlayFabManager : Photon.PunBehaviour, IChatClientListener
         PhotonNetwork.ConnectUsingSettings("1.4");
         PhotonNetwork.playerName = this.PlayFabId;
         connectToChat();
-
     }
 
 
@@ -743,8 +733,8 @@ public class PlayFabManager : Photon.PunBehaviour, IChatClientListener
     }
 
     private bool rejoin; // reset it to false elsewhere
-    override
-    public void OnConnectionFail(DisconnectCause cause)
+    
+    public override void OnConnectionFail(DisconnectCause cause)
     {
         if (PhotonNetwork.Server == ServerConnection.GameServer)
         {
@@ -864,18 +854,18 @@ public class PlayFabManager : Photon.PunBehaviour, IChatClientListener
     {
         isInMaster = true;
         Debug.Log("Connected to master");
-
-
-        if(SceneManager.GetActiveScene().name != "MenuScene")
-         startScene();
+        
+        if (SceneManager.GetActiveScene().name != "MenuScene")
+        {
+            startScene();
+        }
 
         PhotonNetwork.JoinLobby();
-
     }
 
     public override void OnJoinedLobby()
     {
-        Debug.Log("Joined lobby");
+        Debug.Log($"Joined lobby: CountOfPlayersInLobby: {PhotonNetwork.countOfPlayersOnMaster} PlayerName: {PhotonNetwork.playerName} Player: {PhotonNetwork.player}");
         isInLobby = true;
     }
 
@@ -974,6 +964,8 @@ public class PlayFabManager : Photon.PunBehaviour, IChatClientListener
         StartCoroutine(TryToCreateGameAfterFailedToJoinRandom(roomOptions));
 
     }
+
+
 
     public string generateBotMoves()
     {

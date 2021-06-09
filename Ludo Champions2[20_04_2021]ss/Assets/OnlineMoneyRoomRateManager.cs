@@ -135,6 +135,8 @@ public class OnlineMoneyRoomRateManager : MonoBehaviour
         }
     }
     public GameObject lowbalance;
+
+
     public void ConfirmSelection()
     {
         if (selectedRoomIndex < 0)
