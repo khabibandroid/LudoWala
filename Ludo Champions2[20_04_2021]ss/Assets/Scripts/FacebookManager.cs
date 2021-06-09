@@ -111,7 +111,7 @@ public class FacebookManager : MonoBehaviour
 
         if (FB.IsInitialized)
         {
-            Debug.Log("hhhhhhhhhhhhh");
+            Debug.Log("Fb Initialized");
             // Signal an app activation App Event
             FB.ActivateApp();
             // Continue with Facebook SDK

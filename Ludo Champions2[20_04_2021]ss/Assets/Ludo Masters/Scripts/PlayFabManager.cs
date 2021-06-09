@@ -97,13 +97,14 @@ public class PlayFabManager : Photon.PunBehaviour, IChatClientListener
     void Start()
     {
         Debug.Log("Playfab start");
-        PhotonNetwork.BackgroundTimeout = StaticStrings.photonDisconnectTimeoutLong;
         GameManager.Instance.playfabManager = this;
+
+        PhotonNetwork.BackgroundTimeout = StaticStrings.photonDisconnectTimeoutLong;
+
         fbManager = GameObject.Find("facebookManager").GetComponent<FacebookManager>();
         facebookFriendsMenu = GameManager.Instance.facebookFriendsMenu;
 
         avatarSprites = GameObject.Find("StaticGameVariablesContainer").GetComponent<StaticGameVariablesController>().avatars;
-
     }
 
     void Update()
@@ -227,19 +228,15 @@ public class PlayFabManager : Photon.PunBehaviour, IChatClientListener
 
     public void StartGame()
     {
-
         PhotonNetwork.room.IsOpen = false;
         PhotonNetwork.room.IsVisible = false;
 
         CancelInvoke("StartGameWithBots");
         Invoke("startGameScene", 3.0f);
-
-
     }
 
     private IEnumerator waitAndStartGame()
     {
-
         Debug.Log("required " + GameManager.Instance.requiredPlayers);
         while (GameManager.Instance.readyPlayers < GameManager.Instance.requiredPlayers - 1 || !imReady /*|| (!GameManager.Instance.roomOwner && !GameManager.Instance.receivedInitPositions)*/)
         {
@@ -318,10 +315,7 @@ public class PlayFabManager : Photon.PunBehaviour, IChatClientListener
             SceneManager.LoadScene(GameManager.Instance.GameScene);
             GameManager.Instance.gameSceneStarted = true;
         }
-
-
         Debug.Log("Loading Game Scene **********");
-
     }
 
 
@@ -794,7 +788,6 @@ public class PlayFabManager : Photon.PunBehaviour, IChatClientListener
                         switchUser();
                     }
                 }
-
             }
             else
             {

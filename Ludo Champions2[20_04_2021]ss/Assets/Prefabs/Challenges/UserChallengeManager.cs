@@ -95,7 +95,8 @@ public class UserChallengeManager : MonoBehaviour
 
         foreach (var item2 in jsonArray)
         {
-            if (GameManager.Instance.playfabManager.IsUserIDOnline(item2.Value["user_id"], item2.Value["username"]))
+            //TODO: PlayFabManager Method  Missing
+            //if (GameManager.Instance.playfabManager.IsUserIDOnline(item2.Value["user_id"], item2.Value["username"]))
             {
                 var newChallenge = Instantiate(userChallengeButtonPrefab, userChallengeButtonParent.transform);
                 challengeDict.Add(newChallenge, new ChallengeModel() { username = item2.Value["username"], user_id = item2.Value["user_id"], email = item2.Value["email"] });
@@ -104,8 +105,6 @@ public class UserChallengeManager : MonoBehaviour
                 var requestHandler = newChallenge.GetComponent<ChallengeRequestHandler>();
                 requestHandler.ChallengeName.text = item2.Value["username"] + "test...";
                 requestHandler.requestButton.onClick.AddListener(() => ShowChallengeInfo(newChallenge)); // newChallenge
-                                                                                                         //UserIdList.Add(item.Value["user_id"].ToString());
-                                                                                                         //Debug.Log($"{item.Value["chalange_id"]} {item.Value["chalange_name"]} {item.Value["user_id"]} {item.Value["username"]}");
             }
         }
     }
@@ -144,7 +143,8 @@ public class UserChallengeManager : MonoBehaviour
 
     private void CheckUserIsOnline()
     {
-        if (GameManager.Instance.playfabManager.IsUserIDOnline(currentUserID, currentUserName))
+        //TODO: PlayFabManager Method  Missing
+        if (/*GameManager.Instance.playfabManager.IsUserIDOnline(currentUserID, currentUserName)*/ true)
         {
             //Debug.Log("COMING TO INNER SEND REQUEST ...." + currentUserID);
             GameManager.Instance.playfabManager.CreatePrivateRoom();

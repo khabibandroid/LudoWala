@@ -675,9 +675,6 @@ public class MainmenuManager : MonoBehaviour
     public Text winnning_balancess;
     IEnumerator User_Data()
     {
-
-
-
         WWWForm form = new WWWForm();
 
         form.AddField("user_id", GameManager.Instance.UserID);
@@ -1204,15 +1201,9 @@ public class MainmenuManager : MonoBehaviour
         }
         else
         {
-
-
-
             Debug.Log(www.downloadHandler.text);
 
             string output = www.downloadHandler.text;
-
-
-
 
             var N = JSON.Parse(output);
 
