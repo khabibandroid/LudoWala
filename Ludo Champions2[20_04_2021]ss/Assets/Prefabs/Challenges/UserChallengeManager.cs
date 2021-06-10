@@ -10,6 +10,12 @@ using TMPro;
 
 public class UserChallengeManager : MonoBehaviour
 {
+    //OnlineMoney Room Rate Manager 
+
+    [SerializeField] private OnlineMoneyRoomRateManager OnlineMoneyRoomRate;
+
+
+
     private static UserChallengeManager instance;
     [SerializeField] private string getChallengesAPI = "https://codash.tk/ludowala/Api/AllChalange";
     [Header("UserChallengeList")]
@@ -27,7 +33,7 @@ public class UserChallengeManager : MonoBehaviour
     public List<string> UserIdList = new List<string>();
     private string currentUserID;
     private string currentUserName;
-
+    public int bid_Amount;
 
     private void Awake()
     {
@@ -51,7 +57,6 @@ public class UserChallengeManager : MonoBehaviour
     {
         // PhotonNetwork.FindFriends(new string[] { "553","Siva"});
         StartCoroutine(ShowUserChallengeDetails());
-
     }
 
 
@@ -72,6 +77,7 @@ public class UserChallengeManager : MonoBehaviour
         else
         {
             var resp = uwr.downloadHandler.text;
+            Debug.LogError($"Response: {resp}");
             //var resp = "[{ 'chalange_id':'9','chalange_name':'newName','user_id':'557','username':'Siva'},{ 'chalange_id':'8','chalange_name':'MyChallenge','user_id':'553','username':'Ash'}]";
             var parsemodel = JSON.Parse(resp);
             var jsonArray = parsemodel[0]["userData"].AsArray;
@@ -99,7 +105,7 @@ public class UserChallengeManager : MonoBehaviour
             //if (GameManager.Instance.playfabManager.IsUserIDOnline(item2.Value["user_id"], item2.Value["username"]))
             {
                 var newChallenge = Instantiate(userChallengeButtonPrefab, userChallengeButtonParent.transform);
-                challengeDict.Add(newChallenge, new ChallengeModel() { username = item2.Value["username"], user_id = item2.Value["user_id"], email = item2.Value["email"] });
+                challengeDict.Add(newChallenge, new ChallengeModel() { username = item2.Value["username"], user_id = item2.Value["user_id"], email = item2.Value["email"], bid_amount = item2.Value["bid_amount"]});
                 //chalange_id = item.Value["chalange_id"], bid_amount = item.Value["bid_amount"], 
 
                 var requestHandler = newChallenge.GetComponent<ChallengeRequestHandler>();
@@ -129,22 +135,33 @@ public class UserChallengeManager : MonoBehaviour
             //UserChallengeCoinScreen.GetComponentInChildren<Button>().onClick.AddListener(() => OnInnerSendRequestClicked(selectedChallenge.user_id));
             currentUserID = selectedChallenge.user_id;
             currentUserName = selectedChallenge.username;
-
+            bid_Amount = int.Parse(selectedChallenge.bid_amount);
 
         }
-
     }
 
     public void OnInnerSendRequestClicked()
     {
-        PhotonNetwork.FindFriends(new string[] { currentUserID });
-        Invoke("CheckUserIsOnline", 2f);
+        Debug.LogError($"OnInnerSendRequestClicked: {currentUserID}");
+        //PhotonNetwork.FindFriends(new string[] { currentUserID });
+        //Invoke("CheckUserIsOnline", 2f);
+
+        if (int.Parse(GameManager.Instance.Balance) > bid_Amount)
+        {
+            StartCoroutine(CheckUserIsOnline());
+        }
+        else
+        {
+            OnlineMoneyRoomRate.lowbalance.SetActive(true);
+        }
     }
 
-    private void CheckUserIsOnline()
+    private IEnumerator CheckUserIsOnline()
     {
+        yield return new WaitForSeconds(2);
         //TODO: PlayFabManager Method  Missing
-        if (/*GameManager.Instance.playfabManager.IsUserIDOnline(currentUserID, currentUserName)*/ true)
+        //if (/*GameManager.Instance.playfabManager.IsUserIDOnline(currentUserID, currentUserName)*/ true)
+        if (PhotonNetwork.FindFriends(new string[] { currentUserID }))
         {
             //Debug.Log("COMING TO INNER SEND REQUEST ...." + currentUserID);
             GameManager.Instance.playfabManager.CreatePrivateRoom();
@@ -152,7 +169,6 @@ public class UserChallengeManager : MonoBehaviour
             GameManager.Instance.matchPlayerObject.GetComponent<SetMyData>().MatchPlayer();
             GameManager.Instance.playfabManager.challengeFriend(currentUserID, GameManager.Instance.payoutCoins + ";" + GameManager.Instance.privateRoomID);
             // Debug.Log("COMING TO INNER SEND ROOM ID ...." + GameManager.Instance.privateRoomID+ " ROOM ID "+GameManager.Instance.RoomID);
-
         }
         else
         {

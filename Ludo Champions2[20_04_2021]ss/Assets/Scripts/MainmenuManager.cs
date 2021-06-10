@@ -505,7 +505,6 @@ public class MainmenuManager : MonoBehaviour
     public void Updated_address()
     {
         StartCoroutine(updated_address());
-
     }
 
     IEnumerator updated_address()
